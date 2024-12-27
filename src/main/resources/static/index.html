@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запоминание слов</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Подключение CSS -->
+</head>
+<body>
+<div id="question">Bonjour</div>
+<div id="options">
+    <!-- Кнопки будут динамически добавляться через JavaScript -->
+</div>
+<button onclick="getQuestion()">Получить случайное слово</button>
+
+<!-- Форма для добавления нового слова -->
+<div id="addWordForm" style="margin-top: 20px;">
+    <input type="text" id="newWord" placeholder="Новое слово" required>
+    <input type="text" id="newTranslation" placeholder="Перевод" required>
+    <button onclick="addWord()">Добавить</button>
+</div>
+<div id="hideWord">
+  <button id="hideButton" >Скрыть слово</button> <!-- Кнопка скрытия слова -->
+</div>
+<script src="js/answer.js"></script> <!-- Подключаем внешний файл JavaScript -->
+<script src="js/newMots.js"></script> <!-- Подключаем новый файл для добавления слов -->
+</body>
+</html>

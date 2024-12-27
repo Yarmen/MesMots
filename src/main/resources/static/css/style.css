@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем содержимое по горизонтали */
+    justify-content: center; /* Центрируем содержимое по вертикали */
+    height: 100vh; /* Занимает всю высоту окна */
+}
+
+#question {
+    font-size: 40px; /* Размер шрифта для вопроса */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover:not(:disabled) {
+    background-color: #0056b3; /* Цвет фона при наведении */
+}
+
+button:disabled {
+    background-color: #ccc; /* Цвет для заблокированной кнопки */
+    cursor: not-allowed; /* Курсор для заблокированной кнопки */
+}
