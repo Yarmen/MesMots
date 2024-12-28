@@ -5,12 +5,8 @@ public class Mot {
     private String motFrancais; // Французское слово
     private String traductionRusse; // Перевод на русский
     private String type; // Тип слова (существительное, глагол и т.д.)
-    private boolean visible; // Видимость слова
-    private int answerCount; // Количество ответов (правильных и неправильных)
 
     public Mot() {
-        this.visible = true; // По умолчанию слово видно
-        this.answerCount = 0;
     }
 
 
@@ -20,8 +16,6 @@ public class Mot {
         this.motFrancais = motFrancais;
         this.traductionRusse = traductionRusse;
         this.type = type;
-        this.visible = true; // По умолчанию слово видно
-        this.answerCount = 0; // Изначально количество ответов 0
     }
 
     // Геттеры и сеттеры
@@ -55,25 +49,5 @@ public class Mot {
 
     public void setType(String type) {
         this.type = type;
-    }
-
-    public boolean isVisible() {
-        return visible;
-    }
-
-    public void setVisible(boolean visible) {
-        this.visible = visible;
-    }
-
-    public int getAnswerCount() {
-        return answerCount;
-    }
-
-    public void incrementAnswerCount() {
-        this.answerCount++;
-    }
-
-    public void decrementAnswerCount() {
-        this.answerCount--;
     }
 }

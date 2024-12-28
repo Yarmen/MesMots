@@ -1,6 +1,6 @@
-async function getQuestion() {
+async function getQuestion(userId) {
     try {
-        const response = await fetch('/question-aleatoire'); // Получаем случайный вопрос
+        const response = await fetch(`/question-aleatoire?userId=${userId}`); // Получаем случайный вопрос с userId
         if (!response.ok) {
             const errorMessage = await response.text(); // Получаем текст ошибки от сервера
             throw new Error(`Ошибка при получении вопроса: ${errorMessage}`); // Генерируем ошибку с текстом статуса
@@ -39,7 +39,6 @@ async function getQuestion() {
     }
 }
 
-
 async function hideWord(motId) {
     try {
         const response = await fetch('/hide-word', {  // Предполагается, что у вас есть такой API-метод на сервере
@@ -52,7 +51,7 @@ async function hideWord(motId) {
 
         if (response.ok) {
             console.log("Слово скрыто успешно!");
-            getQuestion(); // Получаем новое слово после скрытия текущего
+            getQuestion(userId); // Получаем новое слово после скрытия текущего, передавая userId
         } else {
             console.error("Ошибка при скрытии слова.");
         }
@@ -63,21 +62,24 @@ async function hideWord(motId) {
 }
 
 async function checkAnswer(motId, selectedOption, button) {
+    const userId = "1"; // Замените на актуальный ID пользователя или получите его из контекста
+
     try {
         const response = await fetch('/verifier-reponse', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ motId: motId, selectedOption: selectedOption })
+            body: JSON.stringify({ motId: motId, selectedOption: selectedOption, userId: userId }) // Добавляем userId
         });
 
         if (response.ok) {
             const result = await response.text(); // Получаем текстовый ответ от сервера
 
-            // Если ответ был правильным, получаем новое слово
+            // Если ответ был правильным
             if (result === "Правильно!") {
-                getQuestion(); // Вызываем функцию для получения нового слова
+                getQuestion(userId); // Вызываем функцию для получения нового слова
+                displayStatistics(); // Обновляем статистику
             } else {
                 // Если ответ неправильный, блокируем кнопку
                 button.disabled = true; // Блокируем кнопку
@@ -90,5 +92,26 @@ async function checkAnswer(motId, selectedOption, button) {
     } catch (error) {
         console.error("Ошибка:", error);
     }
-
 }
+
+
+async function displayStatistics() {
+    try {
+        const response = await fetch('/api/статистика');
+        if (response.ok) {
+            const stats = await response.text();
+            document.getElementById('statistics').innerText = stats; // Предполагается, что у вас есть элемент с id 'statistics'
+        } else {
+            console.error("Ошибка при получении статистики.");
+        }
+    } catch (error) {
+        console.error("Ошибка:", error);
+    }
+}
+
+// Вызывайте displayStatistics() после каждого правильного ответа
+
+
+// Пример вызова getQuestion с userId при загрузке страницы или по событию
+const userId = "1"; // Замените на актуальный ID пользователя
+getQuestion(userId);

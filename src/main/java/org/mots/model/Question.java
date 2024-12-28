@@ -9,7 +9,7 @@ public class Question {
     private boolean visible; // Видимость слова
     private String type; // Тип слова (существительное, глагол и т.д.)
 
-    public Question(String mot, List<String> options, String motId, boolean visible, String type) {
+    public Question(String mot, List<String> options, String motId, String type) {
         this.mot = mot;
         this.options = options;
         this.motId = motId; // Идентификатор слова

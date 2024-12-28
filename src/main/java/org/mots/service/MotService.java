@@ -4,6 +4,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import org.mots.model.Mot;
 import org.mots.model.Question;
+import org.mots.model.User;
+import org.mots.model.UserMots;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
@@ -29,7 +31,7 @@ public class MotService {
         String newId = generateUniqueId(); // Генерация уникального ID
         newMot.setId(newId); // Устанавливаем ID для нового слова
         mots.add(newMot); // Добавляем новое слово в список
-        saveToJson(); // Сохраняем список в JSON файл (если это необходимо)
+        //saveToJson(); // Сохраняем список в JSON файл (если это необходимо)
     }
 
     // Метод для обновления существующего слова
@@ -37,7 +39,7 @@ public class MotService {
         for (int i = 0; i < mots.size(); i++) {
             if (mots.get(i).getId().equals(updatedMot.getId())) {
                 mots.set(i, updatedMot); // Обновляем слово в списке
-                saveToJson(); // Сохраняем изменения в JSON файл
+               // saveToJson(); // Сохраняем изменения в JSON файл
                 return;
             }
         }
@@ -61,7 +63,6 @@ public class MotService {
     public Question getRandomQuestion() {
         // Фильтруем список, чтобы оставить только видимые слова
         List<Mot> visibleMots = mots.stream()
-                .filter(Mot::isVisible)
                 .collect(Collectors.toList());
 
         if (visibleMots.isEmpty()) {
@@ -83,7 +84,7 @@ public class MotService {
 
         Collections.shuffle(options); // Перемешиваем варианты ответов
 
-        return new Question(randomMot.getMotFrancais(), options, randomMot.getId(), randomMot.isVisible(), randomMot.getType());
+        return new Question(randomMot.getMotFrancais(), options, randomMot.getId(), randomMot.getType());
     }
 
 
@@ -101,31 +102,42 @@ public class MotService {
     }
 
     // Метод для сохранения списка слов в JSON файл
-    private void saveToJson() {
+    private void loadFromJson() {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
-            objectMapper.enable(SerializationFeature.INDENT_OUTPUT); // Включаем форматирование
-            objectMapper.writeValue(new File("src/main/resources/data.json"), mots);
+
+            // Загрузка пользователей
+            InputStream userInputStream = getClass().getResourceAsStream("/user.json");
+            User[] users = null;
+            if (userInputStream != null) {
+                users = objectMapper.readValue(userInputStream, User[].class);
+                System.out.println("Загружены пользователи: " + users.length);
+            } else {
+                System.out.println("Файл user.json не найден.");
+                return; // Выход из метода, если файл не найден
+            }
+
+            // Загрузка слов
+            InputStream motsInputStream = getClass().getResourceAsStream("/data.json"); // Убедитесь, что путь правильный
+            Mot[] motsArray = null;
+            if (motsInputStream != null) {
+                motsArray = objectMapper.readValue(motsInputStream, Mot[].class);
+                for (Mot mot : motsArray) {
+                    mots.add(mot); // Добавляем загруженные объекты в список
+                }
+                System.out.println("Загружено слов: " + mots.size());
+            } else {
+                System.out.println("Файл data.json не найден.");
+            }
+
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    // Метод для загрузки списка слов из JSON файла
-    private void loadFromJson() {
-        try {
-            ObjectMapper objectMapper = new ObjectMapper();
-            InputStream inputStream = getClass().getResourceAsStream("/data.json"); // Загрузка файла из ресурсов
-            if (inputStream != null) {
-                Mot[] motsArray = objectMapper.readValue(inputStream, Mot[].class);
-                mots = new ArrayList<>(Arrays.asList(motsArray)); // Создаем изменяемый список
-                System.out.println("Загружено слов: " + mots.size()); // Логируем количество загруженных слов
-            } else {
-                System.out.println("Файл data.json не найден.");
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public List<Mot> getAllWords() {
+        return mots; // Возвращаем список всех слов
     }
+
 
 }
