@@ -95,9 +95,9 @@ async function checkAnswer(motId, selectedOption, button) {
 }
 
 
-async function displayStatistics() {
+async function displayStatistics(userId) {
     try {
-        const response = await fetch('/api/статистика');
+        const response = await fetch(`/statistics/${userId}`);
         if (response.ok) {
             const stats = await response.text();
             document.getElementById('statistics').innerText = stats; // Предполагается, что у вас есть элемент с id 'statistics'
@@ -108,6 +108,9 @@ async function displayStatistics() {
         console.error("Ошибка:", error);
     }
 }
+
+// Вызов функции с конкретным userId
+displayStatistics(userId); // Замените 'yourUserId' на актуальный идентификатор пользователя
 
 // Вызывайте displayStatistics() после каждого правильного ответа
 

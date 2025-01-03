@@ -42,7 +42,7 @@ public class MotController {
     @GetMapping("question-aleatoire")
     public ResponseEntity<?> getRandomQuestion(@RequestParam String userId) {
         // Получаем все UserMots для данного пользователя
-        List<UserMots> userMotsList = userMotsService.getUserMotsByUserId(userId); // Предполагается, что у вас есть такой метод
+        List<UserMots> userMotsList = userMotsService.getUserMotsByUserId(userId);
 
         // Фильтруем и сортируем слова
         List<UserMots> filteredUserMots = userMotsList.stream()

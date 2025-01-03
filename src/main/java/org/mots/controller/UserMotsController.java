@@ -16,11 +16,11 @@ public class UserMotsController {
     private UserMotsService userMotsService;
 
     // Добавление связи между пользователем и словом
-    @PostMapping("/add")
+    /*@PostMapping("/add")
     public ResponseEntity<UserMots> addUserMot(@RequestBody UserMots userMot) {
         userMotsService.addUserMot(userMot);
         return ResponseEntity.ok(userMot);
-    }
+    }*/
 
     // Получение всех слов пользователя
     @GetMapping("/{userId}")

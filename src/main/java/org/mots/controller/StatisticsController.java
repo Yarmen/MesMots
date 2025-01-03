@@ -1,40 +1,22 @@
 package org.mots.controller;
 
-import org.mots.model.User;
 import org.mots.service.UserMotsService;
-import org.mots.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/users")
-public class UserController {
+public class StatisticsController {
 
-    @Autowired
-    private UserService userService;
-    private UserMotsService userMotsService;
+    private final UserMotsService userMotsService;
 
-    public UserController(UserMotsService userMotsService) {
+    public StatisticsController(UserMotsService userMotsService) {
         this.userMotsService = userMotsService;
     }
 
-
-
-    @PostMapping("/register")
-    public ResponseEntity<User> registerUser(@RequestBody User user) {
-        User newUser = userService.registerUser(user);
-        return ResponseEntity.ok(newUser);
-    }
-
-    @GetMapping("/{id}")
-    public ResponseEntity<User> getUserById(@PathVariable String id) {
-        User user = userService.getUserById(id);
-        return (user != null) ? ResponseEntity.ok(user) : ResponseEntity.notFound().build();
-    }
-
-    @GetMapping("/user/{userId}/statistics")
+    @GetMapping("/statistics/{userId}")
     public String displayStatistics(@PathVariable String userId) {
+        // Здесь мы можем использовать метод displayStatistics из UserMotsService
         StringBuilder statistics = new StringBuilder();
 
         int sessionStats = userMotsService.calculateTotalAnswers(userId);
@@ -51,6 +33,4 @@ public class UserController {
 
         return statistics.toString();
     }
-
 }
-
