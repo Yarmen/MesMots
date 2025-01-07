@@ -84,7 +84,7 @@ public class MotService {
 
         Collections.shuffle(options); // Перемешиваем варианты ответов
 
-        return new Question(randomMot.getMotFrancais(), options, randomMot.getId(), randomMot.getType());
+        return new Question(randomMot.getMotFrancais(), options, randomMot.getId(), randomMot.getGender(), randomMot.getType());
     }
 
 

@@ -1,6 +1,16 @@
 [ {
   "id" : 1,
   "userId" : "1",
-  "userDate" : 1735910362209,
-  "answerCount" : 729
+  "formattedDate" : "04.01.2025",
+  "answerCount" : 140
+}, {
+  "id" : 2,
+  "userId" : "1",
+  "formattedDate" : "05.01.2025",
+  "answerCount" : 297
+}, {
+  "id" : 3,
+  "userId" : "1",
+  "formattedDate" : "07.01.2025",
+  "answerCount" : 220
 } ]

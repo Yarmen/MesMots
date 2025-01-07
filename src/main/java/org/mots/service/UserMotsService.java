@@ -3,6 +3,7 @@ package org.mots.service;
 import org.mots.model.Mot;
 import org.mots.model.UserMots;
 import org.mots.utils.JsonUtils; // Обновленный импорт
+import org.mots.utils.PathUtil;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -25,8 +26,7 @@ public class UserMotsService {
     }
 
     private void loadFromJson() {
-        String userHome = System.getProperty("user.home");
-        String filePath = userHome + "/userdata.json"; // Путь к файлу
+        String filePath = PathUtil.getProjectDir() + "/src/main/resources/userdata.json";
         userMotsList = jsonUtils.loadFromJson(filePath, UserMots[].class); // Загружаем данные из JSON
         System.out.println("Загружено UserMots: " + userMotsList.size());
     }
@@ -87,24 +87,38 @@ public class UserMotsService {
         userHistoryService.addUserHistory(userId, currentSessionMots);
     }
 
-    // Метод для получения текущих UserMots для пользователя (пример)
     private List<UserMots> getCurrentSessionMots(String userId) {
         return userMotsList.stream()
                 .filter(userMot -> userMot.getUserId().equals(userId))
                 .collect(Collectors.toList());
     }
 
+    public int getTodayStats(String userId) {
+        return userHistoryService.getTodayStats(userId); // Используем метод из UserHistoryService;
+    }
 
+    public void plusTodayStats(String userId) {
+        userHistoryService.plusTodayStats(userId); // Используем метод из UserHistoryService;
+    }
     // Метод для подсчета общего количества ответов за сеанс (пример)
     public int calculateTotalAnswers(String userId) {
-        return (int) userMotsList.stream()
-                .filter(userMot -> userMot.getUserId().equals(userId))
-                .count();
+
+        List<UserMots> userMotsListFiltered =userMotsList.stream()
+                .filter(userMot -> userMot.getUserId().equals(userId) && userMot.getAnswerCount() > 0).collect(Collectors.toList());
+
+        return (int)userMotsListFiltered.size();
+    }
+
+    // Метод для подсчета общего количества ответов за сеанс (пример)
+    public int totalMotsCount(String userId) {
+        return userMotsList.size();
+                //.filter(userMot -> userMot.getUserId().equals(userId) && userMot.getAnswerCount() > 0)
+
     }
 
     public void saveToJson() {
         //String userHome = System.getProperty("user.home");
-        String outputFilePath = System.getProperty("user.dir") + "/src/main/resources/userdata.json";
+        String outputFilePath = PathUtil.getProjectDir() + "/src/main/resources/userdata.json";
         //String filePath = userHome + "userdata.json"; // Путь к файлу
         jsonUtils.saveToJson(outputFilePath, userMotsList); // Сохраняем данные в JSON
     }
@@ -116,17 +130,5 @@ public class UserMotsService {
                 .collect(Collectors.toList());
     }
 
-    public int getTodayStats(String userId) {
-        int sessionStats = calculateTotalAnswers(userId);
-        int todayStats = userHistoryService.getTodayStats(userId); // Используем метод из UserHistoryService
 
-        System.out.println("Статистика сеанса: " + sessionStats);
-        System.out.println("Статистика за сегодня: " + todayStats);
-
-        int totalWordsInDictionary = 250; // Замените на реальное значение
-        int guessedWordsCount = 50; // Замените на реальное значение
-
-        System.out.println("Слов в словаре: " + totalWordsInDictionary + ", Угадано: " + guessedWordsCount);
-        return sessionStats;
-    }
 }

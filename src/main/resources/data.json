@@ -1,1208 +1,4 @@
-[
- {
-  "id": 1,
-  "motFrancais": "Bonjour",
-  "traductionRusse": "Здравствуйте",
-  "type": "noun"
- },
- {
-  "id": 2,
-  "motFrancais": "Amour",
-  "traductionRusse": "Любовь",
-  "type": "noun"
- },
- {
-  "id": 3,
-  "motFrancais": "Maison",
-  "traductionRusse": "Дом",
-  "type": "noun"
- },
- {
-  "id": 4,
-  "motFrancais": "Chat",
-  "traductionRusse": "Кот",
-  "type": "noun"
- },
- {
-  "id": 5,
-  "motFrancais": "Chien",
-  "traductionRusse": "Собака",
-  "type": "noun"
- },
- {
-  "id": 6,
-  "motFrancais": "Livre",
-  "traductionRusse": "Книга",
-  "type": "noun"
- },
- {
-  "id": 7,
-  "motFrancais": "Eau",
-  "traductionRusse": "Вода",
-  "type": "noun"
- },
- {
-  "id": 8,
-  "motFrancais": "Soleil",
-  "traductionRusse": "Солнце",
-  "type": "noun"
- },
- {
-  "id": 9,
-  "motFrancais": "Lune",
-  "traductionRusse": "Луна",
-  "type": "noun"
- },
- {
-  "id": 10,
-  "motFrancais": "Étoile",
-  "traductionRusse": "Звезда",
-  "type": "noun"
- },
- {
-  "id": 11,
-  "motFrancais": "Fête",
-  "traductionRusse": "Праздник",
-  "type": "noun"
- },
- {
-  "id": 12,
-  "motFrancais": "Musique",
-  "traductionRusse": "Музыка",
-  "type": "noun"
- },
- {
-  "id": 13,
-  "motFrancais": "Danse",
-  "traductionRusse": "Танец",
-  "type": "noun"
- },
- {
-  "id": 14,
-  "motFrancais": "Rêve",
-  "traductionRusse": "Сон",
-  "type": "noun"
- },
- {
-  "id": 15,
-  "motFrancais": "Cœur",
-  "traductionRusse": "Сердце",
-  "type": "noun"
- },
- {
-  "id": 16,
-  "motFrancais": "Arbre",
-  "traductionRusse": "Дерево",
-  "type": "noun"
- },
- {
-  "id": 17,
-  "motFrancais": "Fleur",
-  "traductionRusse": "Цветок",
-  "type": "noun"
- },
- {
-  "id": 18,
-  "motFrancais": "Montagne",
-  "traductionRusse": "Гора",
-  "type": "noun"
- },
- {
-  "id": 19,
-  "motFrancais": "Mer",
-  "traductionRusse": "Море",
-  "type": "noun"
- },
- {
-  "id": 20,
-  "motFrancais": "Vent",
-  "traductionRusse": "Ветер",
-  "type": "noun"
- },
- {
-  "id": 21,
-  "motFrancais": "Neige",
-  "traductionRusse": "Снег",
-  "type": "noun"
- },
- {
-  "id": 22,
-  "motFrancais": "Pluie",
-  "traductionRusse": "Дождь",
-  "type": "noun"
- },
- {
-  "id": 23,
-  "motFrancais": "Ciel",
-  "traductionRusse": "Небо",
-  "type": "noun"
- },
- {
-  "id": 24,
-  "motFrancais": "Terre",
-  "traductionRusse": "Земля",
-  "type": "noun"
- },
- {
-  "id": 25,
-  "motFrancais": "Voiture",
-  "traductionRusse": "Машина",
-  "type": "noun"
- },
- {
-  "id": 26,
-  "motFrancais": "Bateau",
-  "traductionRusse": "Лодка",
-  "type": "noun"
- },
- {
-  "id": 27,
-  "motFrancais": "Train",
-  "traductionRusse": "Поезд",
-  "type": "noun"
- },
- {
-  "id": 28,
-  "motFrancais": "Avion",
-  "traductionRusse": "Самолет",
-  "type": "noun"
- },
- {
-  "id": 29,
-  "motFrancais": "Ville",
-  "traductionRusse": "Город",
-  "type": "noun"
- },
- {
-  "id": 30,
-  "motFrancais": "Rue",
-  "traductionRusse": "Улица",
-  "type": "noun"
- },
- {
-  "id": 31,
-  "motFrancais": "Ami",
-  "traductionRusse": "Друг",
-  "type": "noun"
- },
- {
-  "id": 32,
-  "motFrancais": "Famille",
-  "traductionRusse": "Семья",
-  "type": "noun"
- },
- {
-  "id": 33,
-  "motFrancais": "Enfant",
-  "traductionRusse": "Ребенок",
-  "type": "noun"
- },
- {
-  "id": 34,
-  "motFrancais": "École",
-  "traductionRusse": "Школа",
-  "type": "noun"
- },
- {
-  "id": 35,
-  "motFrancais": "Professeur",
-  "traductionRusse": "Учитель",
-  "type": "noun"
- },
- {
-  "id": 36,
-  "motFrancais": "Travail",
-  "traductionRusse": "Работа",
-  "type": "noun"
- },
- {
-  "id": 37,
-  "motFrancais": "Temps",
-  "traductionRusse": "Время",
-  "type": "noun"
- },
- {
-  "id": 38,
-  "motFrancais": "Argent",
-  "traductionRusse": "Деньги",
-  "type": "noun"
- },
- {
-  "id": 39,
-  "motFrancais": "Nourriture",
-  "traductionRusse": "Еда",
-  "type": "noun"
- },
- {
-  "id": 40,
-  "motFrancais": "Boisson",
-  "traductionRusse": "Напиток",
-  "type": "noun"
- },
- {
-  "id": 41,
-  "motFrancais": "Chocolat",
-  "traductionRusse": "Шоколад",
-  "type": "noun"
- },
- {
-  "id": 42,
-  "motFrancais": "Pain",
-  "traductionRusse": "Хлеб",
-  "type": "noun"
- },
- {
-  "id": 43,
-  "motFrancais": "Fromage",
-  "traductionRusse": "Сыр",
-  "type": "noun"
- },
- {
-  "id": 44,
-  "motFrancais": "Fruit",
-  "traductionRusse": "Фрукт",
-  "type": "noun"
- },
- {
-  "id": 45,
-  "motFrancais": "Légume",
-  "traductionRusse": "Овощ",
-  "type": "noun"
- },
- {
-  "id": 46,
-  "motFrancais": "Santé",
-  "traductionRusse": "Здоровье",
-  "type": "noun"
- },
- {
-  "id": 47,
-  "motFrancais": "Bonheur",
-  "traductionRusse": "Счастье",
-  "type": "noun"
- },
- {
-  "id": 48,
-  "motFrancais": "Tristesse",
-  "traductionRusse": "Грусть",
-  "type": "noun"
- },
- {
-  "id": 49,
-  "motFrancais": "Liberté",
-  "traductionRusse": "Свобода",
-  "type": "noun"
- },
- {
-  "id": 50,
-  "motFrancais": "Paix",
-  "traductionRusse": "Мир",
-  "type": "noun"
- },
- {
-  "id": 51,
-  "motFrancais": "Énergie",
-  "traductionRusse": "Энергия",
-  "type": "noun"
- },
- {
-  "id": 52,
-  "motFrancais": "Savoir",
-  "traductionRusse": "Знание",
-  "type": "noun"
- },
- {
-  "id": 53,
-  "motFrancais": "Émotion",
-  "traductionRusse": "Эмоция",
-  "type": "noun"
- },
- {
-  "id": 54,
-  "motFrancais": "Raison",
-  "traductionRusse": "Причина",
-  "type": "noun"
- },
- {
-  "id": 55,
-  "motFrancais": "Courage",
-  "traductionRusse": "Мужество",
-  "type": "noun"
- },
- {
-  "id": 56,
-  "motFrancais": "Force",
-  "traductionRusse": "Сила",
-  "type": "noun"
- },
- {
-  "id": 57,
-  "motFrancais": "Beauté",
-  "traductionRusse": "Красота",
-  "type": "noun"
- },
- {
-  "id": 58,
-  "motFrancais": "Histoire",
-  "traductionRusse": "История",
-  "type": "noun"
- },
- {
-  "id": 59,
-  "motFrancais": "Culture",
-  "traductionRusse": "Культура",
-  "type": "noun"
- },
- {
-  "id": 60,
-  "motFrancais": "Tradition",
-  "traductionRusse": "Традиция",
-  "type": "noun"
- },
- {
-  "id": 61,
-  "motFrancais": "Avenir",
-  "traductionRusse": "Будущее",
-  "type": "noun"
- },
- {
-  "id": 62,
-  "motFrancais": "Passé",
-  "traductionRusse": "Прошлое",
-  "type": "noun"
- },
- {
-  "id": 63,
-  "motFrancais": "Présent",
-  "traductionRusse": "Настоящее",
-  "type": "noun"
- },
- {
-  "id": 64,
-  "motFrancais": "Voyage",
-  "traductionRusse": "Путешествие",
-  "type": "noun"
- },
- {
-  "id": 65,
-  "motFrancais": "Amitié",
-  "traductionRusse": "Дружба",
-  "type": "noun"
- },
- {
-  "id": 66,
-  "motFrancais": "Réalité",
-  "traductionRusse": "Реальность",
-  "type": "noun"
- },
- {
-  "id": 67,
-  "motFrancais": "Imagination",
-  "traductionRusse": "Воображение",
-  "type": "noun"
- },
- {
-  "id": 68,
-  "motFrancais": "Sensation",
-  "traductionRusse": "Сенсация",
-  "type": "noun"
- },
- {
-  "id": 69,
-  "motFrancais": "Connaissance",
-  "traductionRusse": "Знание",
-  "type": "noun"
- },
- {
-  "id": 70,
-  "motFrancais": "Éducation",
-  "traductionRusse": "Образование",
-  "type": "noun"
- },
- {
-  "id": 71,
-  "motFrancais": "Responsabilité",
-  "traductionRusse": "Ответственность",
-  "type": "noun"
- },
- {
-  "id": 72,
-  "motFrancais": "Librairie",
-  "traductionRusse": "Книжный магазин",
-  "type": "noun"
- },
- {
-  "id": 73,
-  "motFrancais": "Bibliothèque",
-  "traductionRusse": "Библиотека",
-  "type": "noun"
- },
- {
-  "id": 74,
-  "motFrancais": "Cinéma",
-  "traductionRusse": "Кино",
-  "type": "noun"
- },
- {
-  "id": 75,
-  "motFrancais": "Théâtre",
-  "traductionRusse": "Театр",
-  "type": "noun"
- },
- {
-  "id": 76,
-  "motFrancais": "Peinture",
-  "traductionRusse": "Живопись",
-  "type": "noun"
- },
- {
-  "id": 77,
-  "motFrancais": "Sculpture",
-  "traductionRusse": "Скульптура",
-  "type": "noun"
- },
- {
-  "id": 78,
-  "motFrancais": "Photographie",
-  "traductionRusse": "Фотография",
-  "type": "noun"
- },
- {
-  "id": 79,
-  "motFrancais": "Musée",
-  "traductionRusse": "Музей",
-  "type": "noun"
- },
- {
-  "id": 80,
-  "motFrancais": "Concert",
-  "traductionRusse": "Концерт",
-  "type": "noun"
- },
- {
-  "id": 81,
-  "motFrancais": "Festival",
-  "traductionRusse": "Фестиваль",
-  "type": "noun"
- },
- {
-  "id": 82,
-  "motFrancais": "Événement",
-  "traductionRusse": "Событие",
-  "type": "noun"
- },
- {
-  "id": 83,
-  "motFrancais": "Spectacle",
-  "traductionRusse": "Спектакль",
-  "type": "noun"
- },
- {
-  "id": 84,
-  "motFrancais": "Danseur",
-  "traductionRusse": "Танцор",
-  "type": "noun"
- },
- {
-  "id": 85,
-  "motFrancais": "Chanteur",
-  "traductionRusse": "Певец",
-  "type": "noun"
- },
- {
-  "id": 86,
-  "motFrancais": "Compositeur",
-  "traductionRusse": "Композитор",
-  "type": "noun"
- },
- {
-  "id": 87,
-  "motFrancais": "Artiste",
-  "traductionRusse": "Артист",
-  "type": "noun"
- },
- {
-  "id": 88,
-  "motFrancais": "Créativité",
-  "traductionRusse": "Креативность",
-  "type": "noun"
- },
- {
-  "id": 89,
-  "motFrancais": "Inspiration",
-  "traductionRusse": "Вдохновение",
-  "type": "noun"
- },
- {
-  "id": 90,
-  "motFrancais": "Talent",
-  "traductionRusse": "Талант",
-  "type": "noun"
- },
- {
-  "id": 91,
-  "motFrancais": "Passion",
-  "traductionRusse": "Страсть",
-  "type": "noun"
- },
- {
-  "id": 92,
-  "motFrancais": "Émotion",
-  "traductionRusse": "Эмоция",
-  "type": "noun"
- },
- {
-  "id": 93,
-  "motFrancais": "Sentiment",
-  "traductionRusse": "Чувство",
-  "type": "noun"
- },
- {
-  "id": 94,
-  "motFrancais": "Rêverie",
-  "traductionRusse": "Мечтательность",
-  "type": "noun"
- },
- {
-  "id": 95,
-  "motFrancais": "Sérénité",
-  "traductionRusse": "Безмятежность",
-  "type": "noun"
- },
- {
-  "id": 96,
-  "motFrancais": "Tranquillité",
-  "traductionRusse": "Спокойствие",
-  "type": "noun"
- },
- {
-  "id": 97,
-  "motFrancais": "Équilibre",
-  "traductionRusse": "Баланс",
-  "type": "noun"
- },
- {
-  "id": 98,
-  "motFrancais": "Harmonie",
-  "traductionRusse": "Гармония",
-  "type": "noun"
- },
- {
-  "id": 99,
-  "motFrancais": "Symphonie",
-  "traductionRusse": "Симфония",
-  "type": "noun"
- },
- {
-  "id": 100,
-  "motFrancais": "Mélodie",
-  "traductionRusse": "Мелодия",
-  "type": "noun"
- },
- {
-  "id": 101,
-  "motFrancais": "faire",
-  "traductionRusse": "делать",
-  "type": "verbe"
- },
- {
-  "id": 102,
-  "motFrancais": "être",
-  "traductionRusse": "быть",
-  "type": "verbe"
- },
- {
-  "id": 103,
-  "motFrancais": "avoir",
-  "traductionRusse": "иметь",
-  "type": "verbe"
- },
- {
-  "id": 104,
-  "motFrancais": "aller",
-  "traductionRusse": "идти",
-  "type": "verbe"
- },
- {
-  "id": 105,
-  "motFrancais": "venir",
-  "traductionRusse": "приходить",
-  "type": "verbe"
- },
- {
-  "id": 106,
-  "motFrancais": "prendre",
-  "traductionRusse": "брать",
-  "type": "verbe"
- },
- {
-  "id": 107,
-  "motFrancais": "mettre",
-  "traductionRusse": "класть",
-  "type": "verbe"
- },
- {
-  "id": 108,
-  "motFrancais": "parler",
-  "traductionRusse": "говорить",
-  "type": "verbe"
- },
- {
-  "id": 109,
-  "motFrancais": "écouter",
-  "traductionRusse": "слушать",
-  "type": "verbe"
- },
- {
-  "id": 110,
-  "motFrancais": "regarder",
-  "traductionRusse": "смотреть",
-  "type": "verbe"
- },
- {
-  "id": 111,
-  "motFrancais": "aimer",
-  "traductionRusse": "любить",
-  "type": "verbe"
- },
- {
-  "id": 112,
-  "motFrancais": "détester",
-  "traductionRusse": "ненавидеть",
-  "type": "verbe"
- },
- {
-  "id": 113,
-  "motFrancais": "savoir",
-  "traductionRusse": "знать",
-  "type": "verbe"
- },
- {
-  "id": 114,
-  "motFrancais": "connaître",
-  "traductionRusse": "знать (кого-то)",
-  "type": "verbe"
- },
- {
-  "id": 115,
-  "motFrancais": "penser",
-  "traductionRusse": "думать",
-  "type": "verbe"
- },
- {
-  "id": 116,
-  "motFrancais": "travailler",
-  "traductionRusse": "работать",
-  "type": "verbe"
- },
- {
-  "id": 117,
-  "motFrancais": "jouer",
-  "traductionRusse": "играть",
-  "type": "verbe"
- },
- {
-  "id": 118,
-  "motFrancais": "manger",
-  "traductionRusse": "есть",
-  "type": "verbe"
- },
- {
-  "id": 119,
-  "motFrancais": "boire",
-  "traductionRusse": "пить",
-  "type": "verbe"
- },
- {
-  "id": 120,
-  "motFrancais": "dormir",
-  "traductionRusse": "спать",
-  "type": "verbe"
- },
- {
-  "id": 121,
-  "motFrancais": "lire",
-  "traductionRusse": "читать",
-  "type": "verbe"
- },
- {
-  "id": 122,
-  "motFrancais": "écrire",
-  "traductionRusse": "писать",
-  "type": "verbe"
- },
- {
-  "id": 123,
-  "motFrancais": "marcher",
-  "traductionRusse": "ходить",
-  "type": "verbe"
- },
- {
-  "id": 124,
-  "motFrancais": "courir",
-  "traductionRusse": "бежать",
-  "type": "verbe"
- },
- {
-  "id": 125,
-  "motFrancais": "voyager",
-  "traductionRusse": "путешествовать",
-  "type": "verbe"
- },
- {
-  "id": 126,
-  "motFrancais": "acheter",
-  "traductionRusse": "покупать",
-  "type": "verbe"
- },
- {
-  "id": 127,
-  "motFrancais": "vendre",
-  "traductionRusse": "продавать",
-  "type": "verbe"
- },
- {
-  "id": 128,
-  "motFrancais": "chercher",
-  "traductionRusse": "искать",
-  "type": "verbe"
- },
- {
-  "id": 129,
-  "motFrancais": "trouver",
-  "traductionRusse": "находить",
-  "type": "verbe"
- },
- {
-  "id": 130,
-  "motFrancais": "perdre",
-  "traductionRusse": "терять",
-  "type": "verbe"
- },
- {
-  "id": 131,
-  "motFrancais": "gagner",
-  "traductionRusse": "выигрывать",
-  "type": "verbe"
- },
- {
-  "id": 132,
-  "motFrancais": "répondre",
-  "traductionRusse": "отвечать",
-  "type": "verbe"
- },
- {
-  "id": 133,
-  "motFrancais": "demander",
-  "traductionRusse": "спрашивать",
-  "type": "verbe"
- },
- {
-  "id": 134,
-  "motFrancais": "expliquer",
-  "traductionRusse": "объяснять",
-  "type": "verbe"
- },
- {
-  "id": 135,
-  "motFrancais": "montrer",
-  "traductionRusse": "показывать",
-  "type": "verbe"
- },
- {
-  "id": 136,
-  "motFrancais": "apprendre",
-  "traductionRusse": "учить",
-  "type": "verbe"
- },
- {
-  "id": 137,
-  "motFrancais": "enseigner",
-  "traductionRusse": "преподавать",
-  "type": "verbe"
- },
- {
-  "id": 138,
-  "motFrancais": "réussir",
-  "traductionRusse": "успевать",
-  "type": "verbe"
- },
- {
-  "id": 139,
-  "motFrancais": "échouer",
-  "traductionRusse": "потерпеть неудачу",
-  "type": "verbe"
- },
- {
-  "id": 140,
-  "motFrancais": "choisir",
-  "traductionRusse": "выбирать",
-  "type": "verbe"
- },
- {
-  "id": 141,
-  "motFrancais": "changer",
-  "traductionRusse": "менять",
-  "type": "verbe"
- },
- {
-  "id": 142,
-  "motFrancais": "finir",
-  "traductionRusse": "заканчивать",
-  "type": "verbe"
- },
- {
-  "id": 143,
-  "motFrancais": "commencer",
-  "traductionRusse": "начинать",
-  "type": "verbe"
- },
- {
-  "id": 144,
-  "motFrancais": "attendre",
-  "traductionRusse": "ждать",
-  "type": "verbe"
- },
- {
-  "id": 145,
-  "motFrancais": "réfléchir",
-  "traductionRusse": "размышлять",
-  "type": "verbe"
- },
- {
-  "id": 146,
-  "motFrancais": "décider",
-  "traductionRusse": "решать",
-  "type": "verbe"
- },
- {
-  "id": 147,
-  "motFrancais": "utiliser",
-  "traductionRusse": "использовать",
-  "type": "verbe"
- },
- {
-  "id": 148,
-  "motFrancais": "trouver",
-  "traductionRusse": "находить",
-  "type": "verbe"
- },
- {
-  "id": 149,
-  "motFrancais": "réparer",
-  "traductionRusse": "чинить",
-  "type": "verbe"
- },
- {
-  "id": 150,
-  "motFrancais": "demander",
-  "traductionRusse": "спрашивать",
-  "type": "verbe"
- },
- {
-  "id": 151,
-  "motFrancais": "réussir",
-  "traductionRusse": "успевать",
-  "type": "verbe"
- },
- {
-  "id": 152,
-  "motFrancais": "perdre",
-  "traductionRusse": "терять",
-  "type": "verbe"
- },
- {
-  "id": 153,
-  "motFrancais": "gagner",
-  "traductionRusse": "выигрывать",
-  "type": "verbe"
- },
- {
-  "id": 154,
-  "motFrancais": "répondre",
-  "traductionRusse": "отвечать",
-  "type": "verbe"
- },
- {
-  "id": 155,
-  "motFrancais": "expliquer",
-  "traductionRusse": "объяснять",
-  "type": "verbe"
- },
- {
-  "id": 156,
-  "motFrancais": "montrer",
-  "traductionRusse": "показывать",
-  "type": "verbe"
- },
- {
-  "id": 157,
-  "motFrancais": "apprendre",
-  "traductionRusse": "учить",
-  "type": "verbe"
- },
- {
-  "id": 158,
-  "motFrancais": "enseigner",
-  "traductionRusse": "преподавать",
-  "type": "verbe"
- },
- {
-  "id": 159,
-  "motFrancais": "choisir",
-  "traductionRusse": "выбирать",
-  "type": "verbe"
- },
- {
-  "id": 160,
-  "motFrancais": "changer",
-  "traductionRusse": "менять",
-  "type": "verbe"
- },
- {
-  "id": 161,
-  "motFrancais": "finir",
-  "traductionRusse": "заканчивать",
-  "type": "verbe"
- },
- {
-  "id": 162,
-  "motFrancais": "commencer",
-  "traductionRusse": "начинать",
-  "type": "verbe"
- },
- {
-  "id": 163,
-  "motFrancais": "attendre",
-  "traductionRusse": "ждать",
-  "type": "verbe"
- },
- {
-  "id": 164,
-  "motFrancais": "réfléchir",
-  "traductionRusse": "размышлять",
-  "type": "verbe"
- },
- {
-  "id": 165,
-  "motFrancais": "décider",
-  "traductionRusse": "решать",
-  "type": "verbe"
- },
- {
-  "id": 166,
-  "motFrancais": "utiliser",
-  "traductionRusse": "использовать",
-  "type": "verbe"
- },
- {
-  "id": 167,
-  "motFrancais": "réparer",
-  "traductionRusse": "чинить",
-  "type": "verbe"
- },
- {
-  "id": 168,
-  "motFrancais": "fermer",
-  "traductionRusse": "закрывать",
-  "type": "verbe"
- },
- {
-  "id": 169,
-  "motFrancais": "ouvrir",
-  "traductionRusse": "открывать",
-  "type": "verbe"
- },
- {
-  "id": 170,
-  "motFrancais": "demander",
-  "traductionRusse": "спрашивать",
-  "type": "verbe"
- },
- {
-  "id": 171,
-  "motFrancais": "répondre",
-  "traductionRusse": "отвечать",
-  "type": "verbe"
- },
- {
-  "id": 172,
-  "motFrancais": "expliquer",
-  "traductionRusse": "объяснять",
-  "type": "verbe"
- },
- {
-  "id": 173,
-  "motFrancais": "montrer",
-  "traductionRusse": "показывать",
-  "type": "verbe"
- },
- {
-  "id": 174,
-  "motFrancais": "apprendre",
-  "traductionRusse": "учить",
-  "type": "verbe"
- },
- {
-  "id": 175,
-  "motFrancais": "enseigner",
-  "traductionRusse": "преподавать",
-  "type": "verbe"
- },
- {
-  "id": 176,
-  "motFrancais": "choisir",
-  "traductionRusse": "выбирать",
-  "type": "verbe"
- },
- {
-  "id": 177,
-  "motFrancais": "changer",
-  "traductionRusse": "менять",
-  "type": "verbe"
- },
- {
-  "id": 178,
-  "motFrancais": "finir",
-  "traductionRusse": "заканчивать",
-  "type": "verbe"
- },
- {
-  "id": 179,
-  "motFrancais": "commencer",
-  "traductionRusse": "начинать",
-  "type": "verbe"
- },
- {
-  "id": 180,
-  "motFrancais": "attendre",
-  "traductionRusse": "ждать",
-  "type": "verbe"
- },
- {
-  "id": 181,
-  "motFrancais": "réfléchir",
-  "traductionRusse": "размышлять",
-  "type": "verbe"
- },
- {
-  "id": 182,
-  "motFrancais": "décider",
-  "traductionRusse": "решать",
-  "type": "verbe"
- },
- {
-  "id": 183,
-  "motFrancais": "utiliser",
-  "traductionRusse": "использовать",
-  "type": "verbe"
- },
- {
-  "id": 184,
-  "motFrancais": "réparer",
-  "traductionRusse": "чинить",
-  "type": "verbe"
- },
- {
-  "id": 185,
-  "motFrancais": "fermer",
-  "traductionRusse": "закрывать",
-  "type": "verbe"
- },
- {
-  "id": 186,
-  "motFrancais": "ouvrir",
-  "traductionRusse": "открывать",
-  "type": "verbe"
- },
- {
-  "id": 187,
-  "motFrancais": "demander",
-  "traductionRusse": "спрашивать",
-  "type": "verbe"
- },
- {
-  "id": 188,
-  "motFrancais": "répondre",
-  "traductionRusse": "отвечать",
-  "type": "verbe"
- },
- {
-  "id": 189,
-  "motFrancais": "expliquer",
-  "traductionRusse": "объяснять",
-  "type": "verbe"
- },
- {
-  "id": 190,
-  "motFrancais": "montrer",
-  "traductionRusse": "показывать",
-  "type": "verbe"
- },
- {
-  "id": 191,
-  "motFrancais": "apprendre",
-  "traductionRusse": "учить",
-  "type": "verbe"
- },
- {
-  "id": 192,
-  "motFrancais": "enseigner",
-  "traductionRusse": "преподавать",
-  "type": "verbe"
- },
- {
-  "id": 193,
-  "motFrancais": "choisir",
-  "traductionRusse": "выбирать",
-  "type": "verbe"
- },
- {
-  "id": 194,
-  "motFrancais": "changer",
-  "traductionRusse": "менять",
-  "type": "verbe"
- },
- {
-  "id": 195,
-  "motFrancais": "finir",
-  "traductionRusse": "заканчивать",
-  "type": "verbe"
- },
- {
-  "id": 196,
-  "motFrancais": "commencer",
-  "traductionRusse": "начинать",
-  "type": "verbe"
- },
- {
-  "id": 197,
-  "motFrancais": "attendre",
-  "traductionRusse": "ждать",
-  "type": "verbe"
- },
- {
-  "id": 198,
-  "motFrancais": "réfléchir",
-  "traductionRusse": "размышлять",
-  "type": "verbe"
- },
- {
-  "id": 199,
-  "motFrancais": "décider",
-  "traductionRusse": "решать",
-  "type": "verbe"
- },
- {
-  "id": 200,
-  "motFrancais": "utiliser",
-  "traductionRusse": "использовать",
-  "type": "verbe"
- }
-
-
- ,
- {
+[{
   "id": 1,
   "motFrancais": "Bonjour",
   "traductionRusse": "Здравствуйте",
@@ -2477,7 +1273,7 @@
 }, {
  "id" : "213",
  "motFrancais" : "châtain",
- "traductionRusse" : "русый",
+ "traductionRusse" : "каштан",
  "type" : "",
  "gender" : ""
 }, {
@@ -2518,8 +1314,8 @@
  "gender" : ""
 }, {
  "id" : "220",
- "motFrancais" : "кости",
- "traductionRusse" : "и",
+ "motFrancais" : "os",
+ "traductionRusse" : "кости",
  "type" : "",
  "gender" : ""
 }, {
@@ -2579,7 +1375,7 @@
 }, {
  "id" : "230",
  "motFrancais" : "lentilles",
- "traductionRusse" : "веснушки",
+ "traductionRusse" : "чечевица",
  "type" : "noun",
  "gender" : "f"
 }, {
@@ -2744,5 +1540,1478 @@
  "traductionRusse" : "лицо",
  "type" : "noun",
  "gender" : "m"
+}, {
+  "id" : "258",
+  "motFrancais" : "accomodant",
+  "traductionRusse" : "покладистый",
+  "type" : "",
+  "gender" : ""
+ }, {
+ "id" : "259",
+ "motFrancais" : "agressif",
+ "traductionRusse" : "агрессивный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "260",
+ "motFrancais" : "alerte",
+ "traductionRusse" : "бодрый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "261",
+ "motFrancais" : "amoureux",
+ "traductionRusse" : "влюбленный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "262",
+ "motFrancais" : "assuré",
+ "traductionRusse" : "самоуверенный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "263",
+ "motFrancais" : "avide",
+ "traductionRusse" : "жадный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "264",
+ "motFrancais" : "bagarreur",
+ "traductionRusse" : "драчун",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "265",
+ "motFrancais" : "bavard",
+ "traductionRusse" : "болтливый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "266",
+ "motFrancais" : "bon",
+ "traductionRusse" : "добрый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "267",
+ "motFrancais" : "brutal",
+ "traductionRusse" : "грубый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "268",
+ "motFrancais" : "calme",
+ "traductionRusse" : "спокойный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "269",
+ "motFrancais" : "charmant",
+ "traductionRusse" : "очаровательный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "270",
+ "motFrancais" : "chagriné",
+ "traductionRusse" : "расстроенный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "271",
+ "motFrancais" : "complaisant",
+ "traductionRusse" : "услужливый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "272",
+ "motFrancais" : "copain",
+ "traductionRusse" : "приятель",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "273",
+ "motFrancais" : "cruel",
+ "traductionRusse" : "жестокий",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "274",
+ "motFrancais" : "débrouillard",
+ "traductionRusse" : "расторопный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "275",
+ "motFrancais" : "désobéissant",
+ "traductionRusse" : "непослушный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "276",
+ "motFrancais" : "discret",
+ "traductionRusse" : "незаметный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "277",
+ "motFrancais" : "dispos",
+ "traductionRusse" : "бодрый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "278",
+ "motFrancais" : "énergique",
+ "traductionRusse" : "энергичный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "279",
+ "motFrancais" : "égoïste",
+ "traductionRusse" : "эгоист",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "280",
+ "motFrancais" : "ennemi",
+ "traductionRusse" : "враг",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "281",
+ "motFrancais" : "ennuyeux",
+ "traductionRusse" : "скучный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "282",
+ "motFrancais" : "envieux",
+ "traductionRusse" : "завистливый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "283",
+ "motFrancais" : "épuisé",
+ "traductionRusse" : "истощенный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "284",
+ "motFrancais" : "fainéant",
+ "traductionRusse" : "лентяй",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "285",
+ "motFrancais" : "fatigué",
+ "traductionRusse" : "уставший",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "286",
+ "motFrancais" : "gai",
+ "traductionRusse" : "веселый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "287",
+ "motFrancais" : "gaillard",
+ "traductionRusse" : "крепкий",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "288",
+ "motFrancais" : "généreux",
+ "traductionRusse" : "щедрый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "289",
+ "motFrancais" : "gentil",
+ "traductionRusse" : "любезный",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "290",
+ "motFrancais" : "gentille",
+ "traductionRusse" : "любезная",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "291",
+ "motFrancais" : "glouton",
+ "traductionRusse" : "обжора",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "292",
+ "motFrancais" : "goulu",
+ "traductionRusse" : "прожорливый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "293",
+ "motFrancais" : "habile",
+ "traductionRusse" : "искусный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "294",
+ "motFrancais" : "honnête",
+ "traductionRusse" : "честный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "295",
+ "motFrancais" : "hypocrite",
+ "traductionRusse" : "лицемер",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "296",
+ "motFrancais" : "intelligent",
+ "traductionRusse" : "умный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "297",
+ "motFrancais" : "inconvenant",
+ "traductionRusse" : "неуместный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "298",
+ "motFrancais" : "indélicat",
+ "traductionRusse" : "неделикатный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "299",
+ "motFrancais" : "indiscret",
+ "traductionRusse" : "нескромный;",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "300",
+ "motFrancais" : "ingénieux",
+ "traductionRusse" : "находчивый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "301",
+ "motFrancais" : "irritable",
+ "traductionRusse" : "раздражительный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "302",
+ "motFrancais" : "jaloux",
+ "traductionRusse" : "ревнивый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "303",
+ "motFrancais" : "joyeux",
+ "traductionRusse" : "веселый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "304",
+ "motFrancais" : "juste",
+ "traductionRusse" : "справедливый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "305",
+ "motFrancais" : "lâche",
+ "traductionRusse" : "трусливый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "306",
+ "motFrancais" : "loquace",
+ "traductionRusse" : "словоохотливый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "307",
+ "motFrancais" : "maladroit",
+ "traductionRusse" : "неловкий",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "308",
+ "motFrancais" : "malpropre",
+ "traductionRusse" : "неопрятный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "309",
+ "motFrancais" : "méchant",
+ "traductionRusse" : "злой",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "310",
+ "motFrancais" : "modeste",
+ "traductionRusse" : "скромный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "311",
+ "motFrancais" : "ménager",
+ "traductionRusse" : "домовитый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "312",
+ "motFrancais" : "négligent",
+ "traductionRusse" : "неаккуратный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "313",
+ "motFrancais" : "obéissant",
+ "traductionRusse" : "послушный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "314",
+ "motFrancais" : "paresseux",
+ "traductionRusse" : "ленивый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "315",
+ "motFrancais" : "pratique",
+ "traductionRusse" : "деловой",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "316",
+ "motFrancais" : "présomptueux",
+ "traductionRusse" : "самонадеянный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "317",
+ "motFrancais" : "pusillanime",
+ "traductionRusse" : "малодушный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "318",
+ "motFrancais" : "raisonnable",
+ "traductionRusse" : "благоразумный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "319",
+ "motFrancais" : "sage",
+ "traductionRusse" : "мудрый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "320",
+ "motFrancais" : "sale",
+ "traductionRusse" : "грязный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "321",
+ "motFrancais" : "sérieux",
+ "traductionRusse" : "серьезный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "322",
+ "motFrancais" : "simple",
+ "traductionRusse" : "простой",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "323",
+ "motFrancais" : "stupide",
+ "traductionRusse" : "глупый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "324",
+ "motFrancais" : "têtu",
+ "traductionRusse" : "упрямый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "325",
+ "motFrancais" : "triste",
+ "traductionRusse" : "грустный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "326",
+ "motFrancais" : "timide",
+ "traductionRusse" : "застенчивый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "327",
+ "motFrancais" : "vantard",
+ "traductionRusse" : "хвастун",
+ "type" : "noun",
+ "gender" : "m"
+},{
+ "id" : "328",
+ "motFrancais" : "аdopter",
+ "traductionRusse" : "усыновлять-удочерять",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "329",
+ "motFrancais" : "aîné",
+ "traductionRusse" : "старший(ребенок)",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "330",
+ "motFrancais" : "beau-fils",
+ "traductionRusse" : "пасынок",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "331",
+ "motFrancais" : "beau-père",
+ "traductionRusse" : "отчим-свекор-тесть",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "332",
+ "motFrancais" : "belle-fille",
+ "traductionRusse" : "падчерица-невестка-сноха",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "333",
+ "motFrancais" : "belle-mère",
+ "traductionRusse" : "теща-свекровь-мачеха",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "334",
+ "motFrancais" : "le-benjamin",
+ "traductionRusse" : "младший-ребенок",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "335",
+ "motFrancais" : "benjamine",
+ "traductionRusse" : "младший-ребенок",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "336",
+ "motFrancais" : "cousin",
+ "traductionRusse" : "двоюродный-брат",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "337",
+ "motFrancais" : "cousine",
+ "traductionRusse" : "двоюродная-сестра",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "338",
+ "motFrancais" : "demi-frères",
+ "traductionRusse" : "сводные-братья",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "339",
+ "motFrancais" : "demi-soeurs",
+ "traductionRusse" : "сводные-сестры",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "340",
+ "motFrancais" : "épouse",
+ "traductionRusse" : "супруга",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "341",
+ "motFrancais" : "époux",
+ "traductionRusse" : "супруг",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "342",
+ "motFrancais" : "époux",
+ "traductionRusse" : "супруги",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "343",
+ "motFrancais" : "frère",
+ "traductionRusse" : "брат",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "344",
+ "motFrancais" : "gendre",
+ "traductionRusse" : "зять",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "345",
+ "motFrancais" : "grand-père(pépé)",
+ "traductionRusse" : "дед-дедушка",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "346",
+ "motFrancais" : "grand-mère(mamie)",
+ "traductionRusse" : "бабушка",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "347",
+ "motFrancais" : "femme",
+ "traductionRusse" : "жена",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "348",
+ "motFrancais" : "fiancé",
+ "traductionRusse" : "жених",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "349",
+ "motFrancais" : "fiancée",
+ "traductionRusse" : "невеста",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "350",
+ "motFrancais" : "jumeaux",
+ "traductionRusse" : "близнецы",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "351",
+ "motFrancais" : "marâtre",
+ "traductionRusse" : "мачеха",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "352",
+ "motFrancais" : "mari",
+ "traductionRusse" : "муж",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "353",
+ "motFrancais" : "mère",
+ "traductionRusse" : "мать",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "354",
+ "motFrancais" : "naître",
+ "traductionRusse" : "родиться",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "355",
+ "motFrancais" : "neveu",
+ "traductionRusse" : "племянник",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "356",
+ "motFrancais" : "nièce",
+ "traductionRusse" : "племянница",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "357",
+ "motFrancais" : "orphelin",
+ "traductionRusse" : "сирота",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "358",
+ "motFrancais" : "oncle",
+ "traductionRusse" : "дядя",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "359",
+ "motFrancais" : "papa",
+ "traductionRusse" : "папа",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "360",
+ "motFrancais" : "parent",
+ "traductionRusse" : "близкий-родственник",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "361",
+ "motFrancais" : "père",
+ "traductionRusse" : "отец",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "362",
+ "motFrancais" : "petit-fils",
+ "traductionRusse" : "внук",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "363",
+ "motFrancais" : "petite-fille",
+ "traductionRusse" : "внучка",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "364",
+ "motFrancais" : "se-marier",
+ "traductionRusse" : "жениться",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "365",
+ "motFrancais" : "soeur",
+ "traductionRusse" : "сестра",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "366",
+ "motFrancais" : "tante",
+ "traductionRusse" : "тетя",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "367",
+ "motFrancais" : "veuf",
+ "traductionRusse" : "вдовец",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "368",
+ "motFrancais" : "veuve",
+ "traductionRusse" : "вдова",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "369",
+ "motFrancais" : "activité-bénévole",
+ "traductionRusse" : "общественная-работа",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "370",
+ "motFrancais" : "aide",
+ "traductionRusse" : "помощь",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "371",
+ "motFrancais" : "ami-politique",
+ "traductionRusse" : "единомышленник",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "372",
+ "motFrancais" : "assistance",
+ "traductionRusse" : "содействие",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "373",
+ "motFrancais" : "bienfaisant",
+ "traductionRusse" : "благотворительный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "374",
+ "motFrancais" : "comission",
+ "traductionRusse" : "поручение",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "375",
+ "motFrancais" : "cotisation",
+ "traductionRusse" : "членские-взносы",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "376",
+ "motFrancais" : "dirigent",
+ "traductionRusse" : "должность-руководителя",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "377",
+ "motFrancais" : "gratuit",
+ "traductionRusse" : "бесплатный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "378",
+ "motFrancais" : "loisir",
+ "traductionRusse" : "свободное-время(досуг)",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "379",
+ "motFrancais" : "œuvre",
+ "traductionRusse" : "дело-работа-труд",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "380",
+ "motFrancais" : "participation",
+ "traductionRusse" : "участие",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "381",
+ "motFrancais" : "réseau-social",
+ "traductionRusse" : "социальная-сеть",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "382",
+ "motFrancais" : "sans-indemnité",
+ "traductionRusse" : "безвозмездный",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "383",
+ "motFrancais" : "société",
+ "traductionRusse" : "общество",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "384",
+ "motFrancais" : "secours",
+ "traductionRusse" : "помощь(в-беде)",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "385",
+ "motFrancais" : "béret",
+ "traductionRusse" : "берет",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "386",
+ "motFrancais" : "bonnet",
+ "traductionRusse" : "вязаная-шапка",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "387",
+ "motFrancais" : "bottes",
+ "traductionRusse" : "сапоги",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "388",
+ "motFrancais" : "bottines",
+ "traductionRusse" : "ботинки",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "389",
+ "motFrancais" : "boxer",
+ "traductionRusse" : "длинные-трусы",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "390",
+ "motFrancais" : "cache-nez",
+ "traductionRusse" : "кашне(мужской-шарф)",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "391",
+ "motFrancais" : "chemise",
+ "traductionRusse" : "рубашка",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "392",
+ "motFrancais" : "chemisette",
+ "traductionRusse" : "блузка",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "393",
+ "motFrancais" : "chemisier",
+ "traductionRusse" : "блузка",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "394",
+ "motFrancais" : "châle",
+ "traductionRusse" : "шаль",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "395",
+ "motFrancais" : "chapeau",
+ "traductionRusse" : "шляпа",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "396",
+ "motFrancais" : "chapka",
+ "traductionRusse" : "шапка(ушанка)",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "397",
+ "motFrancais" : "chaussettes",
+ "traductionRusse" : "носки",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "398",
+ "motFrancais" : "chaussures",
+ "traductionRusse" : "обувь",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "399",
+ "motFrancais" : "collants",
+ "traductionRusse" : "колготки",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "400",
+ "motFrancais" : "col-roulé",
+ "traductionRusse" : "водолазка",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "401",
+ "motFrancais" : "combinaison",
+ "traductionRusse" : "комбинезон",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "402",
+ "motFrancais" : "complet",
+ "traductionRusse" : "мужской-костюм",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "403",
+ "motFrancais" : "costume",
+ "traductionRusse" : "костюм-мужской",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "404",
+ "motFrancais" : "culotte",
+ "traductionRusse" : "трусы",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "405",
+ "motFrancais" : "écharpe",
+ "traductionRusse" : "шарф",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "406",
+ "motFrancais" : "escarpins",
+ "traductionRusse" : "туфли-лодочки",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "407",
+ "motFrancais" : "foulard",
+ "traductionRusse" : "шарф",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "408",
+ "motFrancais" : "gants",
+ "traductionRusse" : "перчатки",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "409",
+ "motFrancais" : "habiller",
+ "traductionRusse" : "одевать",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "410",
+ "motFrancais" : "habillers",
+ "traductionRusse" : "одеваться",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "411",
+ "motFrancais" : "imperméable",
+ "traductionRusse" : "плащ",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "412",
+ "motFrancais" : "jaquette",
+ "traductionRusse" : "жакет",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "413",
+ "motFrancais" : "jupe",
+ "traductionRusse" : "юбка",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "414",
+ "motFrancais" : "jupon",
+ "traductionRusse" : "юбка",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "415",
+ "motFrancais" : "linge",
+ "traductionRusse" : "белье",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "416",
+ "motFrancais" : "lingerie",
+ "traductionRusse" : "нижнее-белье-магазин-нижнего-белья",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "417",
+ "motFrancais" : "maillot-de-bain",
+ "traductionRusse" : "купальник",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "418",
+ "motFrancais" : "manteau",
+ "traductionRusse" : "пальто-длинная-куртка",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "419",
+ "motFrancais" : "manteau-en-fourrure",
+ "traductionRusse" : "шуба",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "420",
+ "motFrancais" : "mi-bas",
+ "traductionRusse" : "гольфы",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "421",
+ "motFrancais" : "moufles",
+ "traductionRusse" : "варежки",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "422",
+ "motFrancais" : "nu",
+ "traductionRusse" : "голый",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "423",
+ "motFrancais" : "nu-pieds",
+ "traductionRusse" : "босоножки",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "424",
+ "motFrancais" : "pantalon",
+ "traductionRusse" : "брюки",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "425",
+ "motFrancais" : "peignoir",
+ "traductionRusse" : "пеньюар",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "426",
+ "motFrancais" : "pull",
+ "traductionRusse" : "свитер",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "427",
+ "motFrancais" : "pyjama",
+ "traductionRusse" : "пижама",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "428",
+ "motFrancais" : "robe",
+ "traductionRusse" : "платье",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "429",
+ "motFrancais" : "robe-de-chambre",
+ "traductionRusse" : "халат-домашний",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "430",
+ "motFrancais" : "se-faire-beau",
+ "traductionRusse" : "принарядиться",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "431",
+ "motFrancais" : "se-parer",
+ "traductionRusse" : "наряжаться",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "432",
+ "motFrancais" : "slip",
+ "traductionRusse" : "трусы(плавки)",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "433",
+ "motFrancais" : "souliers",
+ "traductionRusse" : "туфли",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "434",
+ "motFrancais" : "sous-vêtement",
+ "traductionRusse" : "нижнее-белье",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "435",
+ "motFrancais" : "soutien-gorge",
+ "traductionRusse" : "бюстгальтер",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "436",
+ "motFrancais" : "string",
+ "traductionRusse" : "узкие-трусики(стринги)",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "437",
+ "motFrancais" : "sweater",
+ "traductionRusse" : "свитер",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "438",
+ "motFrancais" : "tailleur",
+ "traductionRusse" : "женский-костюм",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "439",
+ "motFrancais" : "tee-shirt",
+ "traductionRusse" : "майка",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "440",
+ "motFrancais" : "tricot",
+ "traductionRusse" : "кофта(вязаная)",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "441",
+ "motFrancais" : "veste",
+ "traductionRusse" : "пиджак(мужской)-куртка",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+  "id" : "442",
+  "motFrancais" : "bière",
+  "traductionRusse" : "пиво",
+  "type" : "noun",
+  "gender" : "f"
+ }, {
+ "id" : "443",
+ "motFrancais" : "bisquit",
+ "traductionRusse" : "печенье-бисквит",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "444",
+ "motFrancais" : "bouilloire",
+ "traductionRusse" : "чайник(для-кипячения)",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "445",
+ "motFrancais" : "bonbons",
+ "traductionRusse" : "конфеты(не-шоколадные)",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "446",
+ "motFrancais" : "café",
+ "traductionRusse" : "кофе",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "447",
+ "motFrancais" : "cafetière",
+ "traductionRusse" : "кофейник",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "448",
+ "motFrancais" : "casserole",
+ "traductionRusse" : "кастрюля",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "449",
+ "motFrancais" : "chaise",
+ "traductionRusse" : "стул",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "450",
+ "motFrancais" : "couteau",
+ "traductionRusse" : "нож",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "451",
+ "motFrancais" : "crêpes",
+ "traductionRusse" : "блины",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "452",
+ "motFrancais" : "croissant",
+ "traductionRusse" : "круассан",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "453",
+ "motFrancais" : "cuillère",
+ "traductionRusse" : "ложка",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "454",
+ "motFrancais" : "cuire",
+ "traductionRusse" : "варить-печь",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "455",
+ "motFrancais" : "cuisine",
+ "traductionRusse" : "кухня(поваренное-искусство)",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "456",
+ "motFrancais" : "cuisinière",
+ "traductionRusse" : "повариха",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "457",
+ "motFrancais" : "déjeuner",
+ "traductionRusse" : "обед",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "458",
+ "motFrancais" : "dessert",
+ "traductionRusse" : "десерт",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "459",
+ "motFrancais" : "dîner",
+ "traductionRusse" : "ужин",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "460",
+ "motFrancais" : "farcir",
+ "traductionRusse" : "фаршировать",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "461",
+ "motFrancais" : "four",
+ "traductionRusse" : "духовка",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "462",
+ "motFrancais" : "fourchette",
+ "traductionRusse" : "вилка",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "463",
+ "motFrancais" : "frigidaire",
+ "traductionRusse" : "холодильник",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "464",
+ "motFrancais" : "frigo",
+ "traductionRusse" : "холодильник",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "465",
+ "motFrancais" : "fruits",
+ "traductionRusse" : "фрукты",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "466",
+ "motFrancais" : "garniture",
+ "traductionRusse" : "гарнир",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "467",
+ "motFrancais" : "gâteau",
+ "traductionRusse" : "торт",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "468",
+ "motFrancais" : "goûter",
+ "traductionRusse" : "полдник",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "469",
+ "motFrancais" : "glace",
+ "traductionRusse" : "мороженое",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "470",
+ "motFrancais" : "gruau",
+ "traductionRusse" : "крупа",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "471",
+ "motFrancais" : "jus",
+ "traductionRusse" : "сок",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "472",
+ "motFrancais" : "lait",
+ "traductionRusse" : "молоко",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "473",
+ "motFrancais" : "légumes",
+ "traductionRusse" : "овощи",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "474",
+ "motFrancais" : "louche",
+ "traductionRusse" : "половник",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "475",
+ "motFrancais" : "ménagère",
+ "traductionRusse" : "домохозяйка",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "476",
+ "motFrancais" : "nappe",
+ "traductionRusse" : "скатерть",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "477",
+ "motFrancais" : "oeufs",
+ "traductionRusse" : "яичница(болтунья)",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "478",
+ "motFrancais" : "brouillés",
+ "traductionRusse" : "яичница(болтунья)",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "479",
+ "motFrancais" : "omlette",
+ "traductionRusse" : "омлет",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "480",
+ "motFrancais" : "pâté",
+ "traductionRusse" : "паштет",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "481",
+ "motFrancais" : "petit-déjeuner",
+ "traductionRusse" : "завтрак",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "482",
+ "motFrancais" : "poêle",
+ "traductionRusse" : "сковорода",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "483",
+ "motFrancais" : "poisson",
+ "traductionRusse" : "рыба",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "484",
+ "motFrancais" : "préparer",
+ "traductionRusse" : "готовить",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "485",
+ "motFrancais" : "presse-fruits",
+ "traductionRusse" : "соковыжималка",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "486",
+ "motFrancais" : "râper",
+ "traductionRusse" : "тереть-на-терке",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "487",
+ "motFrancais" : "réception",
+ "traductionRusse" : "прием-гостей",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "488",
+ "motFrancais" : "réfrigérateur",
+ "traductionRusse" : "холодильник",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "489",
+ "motFrancais" : "robot-culinaire",
+ "traductionRusse" : "кухонный-комбайн",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "490",
+ "motFrancais" : "rôti",
+ "traductionRusse" : "жареное-мясо",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "491",
+ "motFrancais" : "rôtir",
+ "traductionRusse" : "жарить",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "492",
+ "motFrancais" : "salon",
+ "traductionRusse" : "гостиная",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "493",
+ "motFrancais" : "sablé",
+ "traductionRusse" : "пирожное(песочное)",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "494",
+ "motFrancais" : "sandwich",
+ "traductionRusse" : "бутерброд",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "495",
+ "motFrancais" : "séjour",
+ "traductionRusse" : "гостиная",
+ "type" : "noun",
+ "gender" : "m"
+}, {
+ "id" : "496",
+ "motFrancais" : "serviette",
+ "traductionRusse" : "салфетка(полотенце)",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "497",
+ "motFrancais" : "soirée",
+ "traductionRusse" : "вечеринка",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "498",
+ "motFrancais" : "soupe",
+ "traductionRusse" : "суп",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "499",
+ "motFrancais" : "table",
+ "traductionRusse" : "стол",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "500",
+ "motFrancais" : "théière",
+ "traductionRusse" : "чайник(для-заварки)",
+ "type" : "noun",
+ "gender" : "f"
+}, {
+ "id" : "501",
+ "motFrancais" : "vider",
+ "traductionRusse" : "потрошить",
+ "type" : "",
+ "gender" : ""
+}, {
+ "id" : "502",
+ "motFrancais" : "vin",
+ "traductionRusse" : "вино",
+ "type" : "noun",
+ "gender" : "m"
 }
+
+
+
 ]

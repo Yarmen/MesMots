@@ -1,57 +1,65 @@
-Bonjour Здравствуйте
-аccoutumé привычный, обычный
-barbe f борода
-barbu m бородач
-bas m низкий (о голосе)
-basse f низкий (о голосе)
-beau m красивый
-belle f  красивая
-blond m блондин
-bouche f рот
-bras m рука (до плеча)
-brun m брюнет
-calvitie f лысина
-châtain русый
-chauve лысый
-cils m ресницы
-coiffure f прическа
-corps m тело
-coude m локоть
-décharné худой, кости и кожа
-doigt m палец
-émacié исхудавший
-envie f родимое пятно
-géant m великан
-genou m колено
-grand высокий (о росте)
-habituel обычный
-jambe f нога (до колена)
-laid уродливый, некрасивый
-lentilles f веснушки
-lèvres f губы
-loucheur m косоглазый
-maigre худой
-main m рука (кисть)
-menton m подбородок
-moustache f усы
-nain m карлик
-natte f коса
-nez m нос
-obèse тучный
-œil m глаз
-yeux глаза
-ordinaire обыкновенный, заурядный, рядовой
-paume f ладонь
-peau f кожа
-perruque f парик
-petit m низкий (о росте)
-petite f низкая (о росте)
-pied m ступня
-raie f пробор
-ridé морщинистый
-roux m рыжий
-rousse f рыжая
-sourcils m брови
-taches f веснушки
-taille f талия
-visage m лицо
+bière f пиво
+bisquit m печенье-бисквит
+bouilloire f чайник(для-кипячения)
+bonbons m конфеты(не-шоколадные)
+café m кофе
+cafetière f кофейник
+casserole f кастрюля
+chaise f стул
+chocolat m шоколад
+couteau m нож
+crêpes f блины
+croissant m круассан
+cuillère f ложка
+cuire варить-печь
+cuisine f кухня(поваренное-искусство)
+cuisinière f повариха
+déjeuner m обед
+dessert m десерт
+dîner m ужин
+farcir фаршировать
+four m духовка
+fourchette f вилка
+frigidaire m холодильник
+frigo m холодильник
+fromage m сыр
+fruits m фрукты
+garniture f гарнир
+gâteau m торт
+goûter m полдник
+glace f мороженое
+gruau m крупа
+jus m сок
+lait m молоко
+légumes m овощи
+louche f половник
+maison f дом
+ménagère f домохозяйка
+nappe f скатерть
+oeufs m яичница(болтунья)
+brouillés яичница(болтунья)
+omlette f омлет
+pain m хлеб
+pâté m паштет
+petit-déjeuner m завтрак
+poêle f сковорода
+poisson m рыба
+préparer готовить еду
+presse-fruits m соковыжималка
+râper тереть-на-терке
+réception f прием-гостей
+réfrigérateur m холодильник
+robot-culinaire m  кухонный-комбайн
+rôti m жареное-мясо
+rôtir жарить
+salon m гостиная
+sablé m пирожное(песочное)
+sandwich m бутерброд
+séjour m гостиная
+serviette f салфетка(полотенце)
+soirée f вечеринка
+soupe f суп
+table f стол
+théière f чайник(для-заварки)
+vider потрошить
+vin m вино

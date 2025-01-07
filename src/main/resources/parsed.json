@@ -1,0 +1,367 @@
+{
+  "id" : "442",
+  "motFrancais" : "bière",
+  "traductionRusse" : "пиво",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "443",
+  "motFrancais" : "bisquit",
+  "traductionRusse" : "печенье-бисквит",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "444",
+  "motFrancais" : "bouilloire",
+  "traductionRusse" : "чайник(для-кипячения)",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "445",
+  "motFrancais" : "bonbons",
+  "traductionRusse" : "конфеты(не-шоколадные)",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "446",
+  "motFrancais" : "café",
+  "traductionRusse" : "кофе",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "447",
+  "motFrancais" : "cafetière",
+  "traductionRusse" : "кофейник",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "448",
+  "motFrancais" : "casserole",
+  "traductionRusse" : "кастрюля",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "449",
+  "motFrancais" : "chaise",
+  "traductionRusse" : "стул",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "450",
+  "motFrancais" : "couteau",
+  "traductionRusse" : "нож",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "451",
+  "motFrancais" : "crêpes",
+  "traductionRusse" : "блины",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "452",
+  "motFrancais" : "croissant",
+  "traductionRusse" : "круассан",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "453",
+  "motFrancais" : "cuillère",
+  "traductionRusse" : "ложка",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "454",
+  "motFrancais" : "cuire",
+  "traductionRusse" : "варить-печь",
+  "type" : "",
+  "gender" : ""
+}, {
+  "id" : "455",
+  "motFrancais" : "cuisine",
+  "traductionRusse" : "кухня(поваренное-искусство)",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "456",
+  "motFrancais" : "cuisinière",
+  "traductionRusse" : "повариха",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "457",
+  "motFrancais" : "déjeuner",
+  "traductionRusse" : "обед",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "458",
+  "motFrancais" : "dessert",
+  "traductionRusse" : "десерт",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "459",
+  "motFrancais" : "dîner",
+  "traductionRusse" : "ужин",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "460",
+  "motFrancais" : "farcir",
+  "traductionRusse" : "фаршировать",
+  "type" : "",
+  "gender" : ""
+}, {
+  "id" : "461",
+  "motFrancais" : "four",
+  "traductionRusse" : "духовка",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "462",
+  "motFrancais" : "fourchette",
+  "traductionRusse" : "вилка",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "463",
+  "motFrancais" : "frigidaire",
+  "traductionRusse" : "холодильник",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "464",
+  "motFrancais" : "frigo",
+  "traductionRusse" : "холодильник",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "465",
+  "motFrancais" : "fruits",
+  "traductionRusse" : "фрукты",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "466",
+  "motFrancais" : "garniture",
+  "traductionRusse" : "гарнир",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "467",
+  "motFrancais" : "gâteau",
+  "traductionRusse" : "торт",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "468",
+  "motFrancais" : "goûter",
+  "traductionRusse" : "полдник",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "469",
+  "motFrancais" : "glace",
+  "traductionRusse" : "мороженое",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "470",
+  "motFrancais" : "gruau",
+  "traductionRusse" : "крупа",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "471",
+  "motFrancais" : "jus",
+  "traductionRusse" : "сок",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "472",
+  "motFrancais" : "lait",
+  "traductionRusse" : "молоко",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "473",
+  "motFrancais" : "légumes",
+  "traductionRusse" : "овощи",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "474",
+  "motFrancais" : "louche",
+  "traductionRusse" : "половник",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "475",
+  "motFrancais" : "ménagère",
+  "traductionRusse" : "домохозяйка",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "476",
+  "motFrancais" : "nappe",
+  "traductionRusse" : "скатерть",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "477",
+  "motFrancais" : "oeufs",
+  "traductionRusse" : "яичница(болтунья)",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "478",
+  "motFrancais" : "brouillés",
+  "traductionRusse" : "яичница(болтунья)",
+  "type" : "",
+  "gender" : ""
+}, {
+  "id" : "479",
+  "motFrancais" : "omlette",
+  "traductionRusse" : "омлет",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "480",
+  "motFrancais" : "pâté",
+  "traductionRusse" : "паштет",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "481",
+  "motFrancais" : "petit-déjeuner",
+  "traductionRusse" : "завтрак",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "482",
+  "motFrancais" : "poêle",
+  "traductionRusse" : "сковорода",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "483",
+  "motFrancais" : "poisson",
+  "traductionRusse" : "рыба",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "484",
+  "motFrancais" : "préparer",
+  "traductionRusse" : "готовить",
+  "type" : "",
+  "gender" : ""
+}, {
+  "id" : "485",
+  "motFrancais" : "presse-fruits",
+  "traductionRusse" : "соковыжималка",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "486",
+  "motFrancais" : "râper",
+  "traductionRusse" : "тереть-на-терке",
+  "type" : "",
+  "gender" : ""
+}, {
+  "id" : "487",
+  "motFrancais" : "réception",
+  "traductionRusse" : "прием-гостей",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "488",
+  "motFrancais" : "réfrigérateur",
+  "traductionRusse" : "холодильник",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "489",
+  "motFrancais" : "robot-culinaire",
+  "traductionRusse" : "кухонный-комбайн",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "490",
+  "motFrancais" : "rôti",
+  "traductionRusse" : "жареное-мясо",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "491",
+  "motFrancais" : "rôtir",
+  "traductionRusse" : "жарить",
+  "type" : "",
+  "gender" : ""
+}, {
+  "id" : "492",
+  "motFrancais" : "salon",
+  "traductionRusse" : "гостиная",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "493",
+  "motFrancais" : "sablé",
+  "traductionRusse" : "пирожное(песочное)",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "494",
+  "motFrancais" : "sandwich",
+  "traductionRusse" : "бутерброд",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "495",
+  "motFrancais" : "séjour",
+  "traductionRusse" : "гостиная",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "496",
+  "motFrancais" : "serviette",
+  "traductionRusse" : "салфетка(полотенце)",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "497",
+  "motFrancais" : "soirée",
+  "traductionRusse" : "вечеринка",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "498",
+  "motFrancais" : "soupe",
+  "traductionRusse" : "суп",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "499",
+  "motFrancais" : "table",
+  "traductionRusse" : "стол",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "500",
+  "motFrancais" : "théière",
+  "traductionRusse" : "чайник(для-заварки)",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "501",
+  "motFrancais" : "vider",
+  "traductionRusse" : "потрошить",
+  "type" : "",
+  "gender" : ""
+}, {
+  "id" : "502",
+  "motFrancais" : "vin",
+  "traductionRusse" : "вино",
+  "type" : "noun",
+  "gender" : "m"
+}

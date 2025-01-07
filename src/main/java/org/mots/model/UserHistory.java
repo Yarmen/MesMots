@@ -5,14 +5,19 @@ import java.util.Date;
 public class UserHistory {
     private int id; // Уникальный идентификатор
     private String userId; // ID пользователя
-    private Date userDate; // Дата урока
+    //private Date userDate; // Дата урока
+    private String formattedDate; // Дата урока
     private int answerCount; // Количество ответов (правильных и неправильных)
 
+    public UserHistory() {
+    }
+
     // Конструктор
-    public UserHistory(int id, String userId, Date userDate, int answerCount) {
+    public UserHistory(int id, String userId, String formattedDate, int answerCount) {
         this.id = id;
         this.userId = userId;
-        this.userDate = userDate;
+        // this.userDate = userDate;
+        this.formattedDate = formattedDate;
         this.answerCount = answerCount;
     }
 
@@ -33,13 +38,15 @@ public class UserHistory {
         this.userId = userId;
     }
 
-    public Date getUserDate() {
-        return userDate;
-    }
+//    public Date getUserDate() {
+//        return userDate;
+//    }
+//
+//    public void setUserDate(Date userDate) {
+//        this.userDate = userDate;
+//    }
 
-    public void setUserDate(Date userDate) {
-        this.userDate = userDate;
-    }
+
 
     public int getAnswerCount() {
         return answerCount;
@@ -47,5 +54,17 @@ public class UserHistory {
 
     public void setAnswerCount(int answerCount) {
         this.answerCount = answerCount;
+    }
+
+    public void plusAnswerCount() {
+        this.answerCount++;
+    }
+
+    public String getFormattedDate() {
+        return formattedDate;
+    }
+
+    public void setFormattedDate(String formattedDate) {
+        this.formattedDate = formattedDate;
     }
 }

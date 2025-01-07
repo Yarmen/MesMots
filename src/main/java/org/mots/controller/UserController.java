@@ -33,7 +33,7 @@ public class UserController {
         return (user != null) ? ResponseEntity.ok(user) : ResponseEntity.notFound().build();
     }
 
-    @GetMapping("/user/{userId}/statistics")
+   /* @GetMapping("/user/{userId}/statistics")
     public String displayStatistics(@PathVariable String userId) {
         StringBuilder statistics = new StringBuilder();
 
@@ -50,7 +50,7 @@ public class UserController {
                 .append(", Угадано: ").append(guessedWordsCount);
 
         return statistics.toString();
-    }
+    }*/
 
 }
 

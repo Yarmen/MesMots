@@ -39,16 +39,26 @@ public class MotController {
         isInitialized = true; // Установка значения true после инициализации
     }
 
+    public List<UserMots> userMotsListShuffl(String userId) {
+        List<UserMots> userMotsList = userMotsService.getUserMotsByUserId(userId);
+        return userMotsList.stream()
+                .filter(UserMots::isVisible) // Фильтруем только видимые слова
+                .sorted(Comparator.comparingInt(UserMots::getAnswerCount)) // Сортируем по количеству ответов
+                .collect(Collectors.groupingBy(UserMots::getAnswerCount)) // Группируем по количеству ответов
+                .values().stream() // Получаем коллекцию групп
+                .flatMap(group -> {
+                    List<UserMots> shuffledGroup = new ArrayList<>(group);
+                    Collections.shuffle(shuffledGroup); // Перемешиваем группу
+                    return shuffledGroup.stream(); // Возвращаем поток перемешанной группы
+                })
+                .collect(Collectors.toList()); // Собираем результат в список
+    }
+
     @GetMapping("question-aleatoire")
     public ResponseEntity<?> getRandomQuestion(@RequestParam String userId) {
         // Получаем все UserMots для данного пользователя
-        List<UserMots> userMotsList = userMotsService.getUserMotsByUserId(userId);
-
         // Фильтруем и сортируем слова
-        List<UserMots> filteredUserMots = userMotsList.stream()
-                .filter(userMot -> userMot.isVisible()) // Фильтруем только видимые слова
-                .sorted(Comparator.comparingInt(UserMots::getAnswerCount)) // Сортируем по количеству просмотров в порядке возрастания
-                .collect(Collectors.toList());
+        List<UserMots> filteredUserMots = userMotsListShuffl(userId);
 
         if (filteredUserMots.isEmpty()) {
             return ResponseEntity.badRequest().body("Нет доступных вопросов для данного пользователя.");
@@ -74,13 +84,13 @@ public class MotController {
     // Метод для создания вопроса на основе слова
     private Question createQuestionFromMot(Mot mot) {
         // Получаем необходимые данные из объекта Mot
-        String motText = mot.getMotFrancais(); // Предположим, что это текст вопроса
-        List<String> options = getOptionsForMot(mot); // Метод для получения списка вариантов
-        String motId = mot.getId(); // Идентификатор слова
-        String type = mot.getType(); // Предположим, что у вас есть метод getType() в Mot
-
+        String motText = mot.getMotFrancais();
+        List<String> options = getOptionsForMot(mot);
+        String motId = mot.getId();
+        String type = mot.getType();
+        String gender = mot.getGender();
         // Создаем объект Question
-        return new Question(motText, options, motId, type);
+        return new Question(motText, options, motId, gender, type);
     }
 
     // Метод для получения списка вариантов для слова (пример)

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class StatisticsController {
-
+    int sessionCount;
     private final UserMotsService userMotsService;
 
     public StatisticsController(UserMotsService userMotsService) {
@@ -19,14 +19,17 @@ public class StatisticsController {
         // Здесь мы можем использовать метод displayStatistics из UserMotsService
         StringBuilder statistics = new StringBuilder();
 
-        int sessionStats = userMotsService.calculateTotalAnswers(userId);
+        int sessionStats = sessionCount++;
         int todayStats = userMotsService.getTodayStats(userId);
+        userMotsService.plusTodayStats(userId);
+        int totalMots = userMotsService.totalMotsCount(userId);
+        int totalUserAnswer = userMotsService.calculateTotalAnswers(userId);
 
         statistics.append("Статистика сеанса: ").append(sessionStats).append("\n");
         statistics.append("Статистика за сегодня: ").append(todayStats).append("\n");
 
-        int totalWordsInDictionary = 250; // Замените на реальное значение
-        int guessedWordsCount = 50; // Замените на реальное значение
+        int totalWordsInDictionary = totalMots;
+        int guessedWordsCount = totalUserAnswer;
 
         statistics.append("Слов в словаре: ").append(totalWordsInDictionary)
                 .append(", Угадано: ").append(guessedWordsCount);

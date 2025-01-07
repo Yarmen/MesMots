@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.mots.model.Mot;
 
 import java.io.*;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -12,14 +13,13 @@ public class FrenchDictionaryParser {
     private List<Mot> existingDictionary; // Список существующих словарных записей
     private int currentId; // Текущий ID для новых слов
 
-    public List<Mot> parseDictionary() {
+    public List<Mot> parseDictionary() throws FileNotFoundException {
         this.existingDictionary = loadExistingDictionary();
         this.currentId = findMaxId() + 1; // Устанавливаем текущий ID на 1 больше максимального
         List<Mot> dictionaryList = new ArrayList<>();
+        String filePath = PathUtil.getProjectDir() + "\\src\\main\\resources\\dictionary.txt";
 
-        try (InputStream inputStream = getClass().getResourceAsStream("/dictionary.txt");
-             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream))) {
-
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
             String[] sexToCheck = {"m", "f"};
             while ((line = reader.readLine()) != null) {
@@ -49,28 +49,7 @@ public class FrenchDictionaryParser {
                         else {
                             traductionRusse = words[1];
                         }
-
-
-
-                        // Проверяем, есть ли перевод после рода
-                        /*if (words.length > 2) {
-                            StringBuilder traductionBuilder = new StringBuilder();
-                            for (int i = 2; i < words.length; i++) {
-                                traductionBuilder.append(words[i]).append(" "); // Добавляем каждую часть перевода
-                            }
-                            traductionRusse = traductionBuilder.toString().trim(); // Убираем лишний пробел в конце
-                        }
-                        else {
-                            StringBuilder traductionBuilder = new StringBuilder();
-                            for (int i = 1; i < words.length; i++) {
-                                traductionBuilder.append(words[i]).append(" "); // Добавляем каждую часть перевода
-                            }
-                            traductionRusse = traductionBuilder.toString().trim(); // Убираем лишний пробел в конце
-                        }*/
-
-                        // Создаем объект Mot и заполняем его данными
                         Mot entry = new Mot();
-                        // entry.setId(String.valueOf(dictionaryList.size() + 1)); // Генерация ID
                         entry.setId(String.valueOf(currentId++)); // Устанавливаем ID, начиная с текущего значения и увеличиваем его
                         entry.setMotFrancais(motFrancais); // Устанавливаем французское слово
                         entry.setTraductionRusse(traductionRusse); // Устанавливаем перевод
@@ -80,8 +59,6 @@ public class FrenchDictionaryParser {
                     }
                 }
             }
-
-            // Логируем количество элементов
             System.out.println("Количество элементов в списке: " + dictionaryList.size());
 
         } catch (IOException e) {
@@ -112,7 +89,7 @@ public class FrenchDictionaryParser {
     }
 
     private List<Mot> loadExistingDictionary() {
-        String filePath = System.getProperty("user.dir") + "/src/main/resources/data.json";
+        String filePath = PathUtil.getProjectDir() + "/src/main/resources/data.json";
         ObjectMapper objectMapper = new ObjectMapper();
         try {
             return objectMapper.readValue(new File(filePath), objectMapper.getTypeFactory().constructCollectionType(List.class, Mot.class));

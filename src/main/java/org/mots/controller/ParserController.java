@@ -3,21 +3,19 @@ package org.mots.controller;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.mots.model.Mot;
 import org.mots.utils.FrenchDictionaryParser;
+import org.mots.utils.PathUtil;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.List;
 
 @RestController
 public class ParserController {
 
     @GetMapping("/parse-dictionary")
-    public ResponseEntity<List<Mot>> parseDictionary() {
+    public ResponseEntity<List<Mot>> parseDictionary() throws FileNotFoundException {
         FrenchDictionaryParser parser = new FrenchDictionaryParser();
         List<Mot> dictionaryList = parser.parseDictionary();
 
@@ -43,7 +41,7 @@ public class ParserController {
 
     private void saveToFile(List<Mot> motList) {
         // Укажите путь для сохранения файла
-        String outputFilePath = System.getProperty("user.dir") + "/src/main/resources/parsed.json";
+        String outputFilePath = PathUtil.getProjectDir() + "/src/main/resources/parsed.json";
 
         ObjectMapper objectMapper = new ObjectMapper(); // Создаем объект ObjectMapper для сериализации
 

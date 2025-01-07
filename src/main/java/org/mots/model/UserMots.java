@@ -11,7 +11,9 @@ public class UserMots {
     private int answerCount; // Количество ответов (правильных и неправильных)
 
     // Конструктор по умолчанию (необходим для Jackson)
-    public UserMots(String userId, String id, boolean b) {}
+    public UserMots() {
+
+    }
 
     // Конструктор с параметрами
     @JsonCreator

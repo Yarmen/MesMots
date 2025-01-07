@@ -37,6 +37,16 @@
     </dependencies>
 
     <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*</include>
+                </includes>
+            </resource>
+        </resources>
+
+
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -53,7 +63,6 @@
                     <mainClass>org.mots.Main</mainClass> <!-- Укажите путь к вашему главному классу -->
                 </configuration>
             </plugin>
-
             <!-- Добавление манифеста -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
