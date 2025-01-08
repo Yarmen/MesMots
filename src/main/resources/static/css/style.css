@@ -10,6 +10,16 @@ body {
     height: 100vh; /* Занимает всю высоту окна */
 }
 
+#statistics {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 #question {
     font-size: 40px; /* Размер шрифта для вопроса */
     margin-bottom: 30px;
@@ -19,8 +29,7 @@ body {
 #options {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-bottom: 20px;
+    gap: 10px; /* Отступы между кнопками */
 }
 
 button {
@@ -41,4 +50,27 @@ button:hover:not(:disabled) {
 button:disabled {
     background-color: #ccc; /* Цвет для заблокированной кнопки */
     cursor: not-allowed; /* Курсор для заблокированной кнопки */
+}
+
+#addWordForm {
+    margin-top: 20px; /* Отступ сверху для формы добавления слов */
+}
+
+#populateContainer {
+    margin-top: 20px; /* Отступ сверху для контейнера с кнопкой пополнения словаря */
+}
+
+#guessedWord {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Новый стиль для кнопки "Получить случайное слово" */
+#getQuestionButton {
+   margin-top: 20px; /* Отступ сверху для кнопки получения слова */
 }

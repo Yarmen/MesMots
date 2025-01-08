@@ -1,367 +1,301 @@
-{
-  "id" : "442",
-  "motFrancais" : "bière",
-  "traductionRusse" : "пиво",
-  "type" : "noun",
-  "gender" : "f"
-}, {
-  "id" : "443",
-  "motFrancais" : "bisquit",
-  "traductionRusse" : "печенье-бисквит",
+,{
+  "id" : "503",
+  "motFrancais" : "appartement",
+  "traductionRusse" : "квартира",
   "type" : "noun",
   "gender" : "m"
 }, {
-  "id" : "444",
-  "motFrancais" : "bouilloire",
-  "traductionRusse" : "чайник(для-кипячения)",
-  "type" : "noun",
-  "gender" : "f"
-}, {
-  "id" : "445",
-  "motFrancais" : "bonbons",
-  "traductionRusse" : "конфеты(не-шоколадные)",
+  "id" : "504",
+  "motFrancais" : "aspirateur",
+  "traductionRusse" : "пылесос",
   "type" : "noun",
   "gender" : "m"
 }, {
-  "id" : "446",
-  "motFrancais" : "café",
-  "traductionRusse" : "кофе",
+  "id" : "505",
+  "motFrancais" : "baignoire",
+  "traductionRusse" : "ванна",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "506",
+  "motFrancais" : "balais",
+  "traductionRusse" : "щетка (половая)",
   "type" : "noun",
   "gender" : "m"
 }, {
-  "id" : "447",
-  "motFrancais" : "cafetière",
-  "traductionRusse" : "кофейник",
+  "id" : "507",
+  "motFrancais" : "brosse",
+  "traductionRusse" : "щетка (одежная, обувная)",
   "type" : "noun",
   "gender" : "f"
 }, {
-  "id" : "448",
-  "motFrancais" : "casserole",
-  "traductionRusse" : "кастрюля",
-  "type" : "noun",
-  "gender" : "f"
-}, {
-  "id" : "449",
-  "motFrancais" : "chaise",
-  "traductionRusse" : "стул",
-  "type" : "noun",
-  "gender" : "f"
-}, {
-  "id" : "450",
-  "motFrancais" : "couteau",
-  "traductionRusse" : "нож",
+  "id" : "508",
+  "motFrancais" : "carrelage",
+  "traductionRusse" : "кафельная плитка",
   "type" : "noun",
   "gender" : "m"
 }, {
-  "id" : "451",
-  "motFrancais" : "crêpes",
-  "traductionRusse" : "блины",
+  "id" : "509",
+  "motFrancais" : "couette",
+  "traductionRusse" : "одеяло",
   "type" : "noun",
   "gender" : "f"
 }, {
-  "id" : "452",
-  "motFrancais" : "croissant",
-  "traductionRusse" : "круассан",
+  "id" : "510",
+  "motFrancais" : "coussin",
+  "traductionRusse" : "диванная подушка",
   "type" : "noun",
   "gender" : "m"
 }, {
-  "id" : "453",
-  "motFrancais" : "cuillère",
-  "traductionRusse" : "ложка",
+  "id" : "511",
+  "motFrancais" : "couverture",
+  "traductionRusse" : "покрывало, одеяло",
   "type" : "noun",
   "gender" : "f"
 }, {
-  "id" : "454",
-  "motFrancais" : "cuire",
-  "traductionRusse" : "варить-печь",
+  "id" : "512",
+  "motFrancais" : "douche",
+  "traductionRusse" : "душ",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "513",
+  "motFrancais" : "entrée",
+  "traductionRusse" : "прихожая",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "514",
+  "motFrancais" : "garage",
+  "traductionRusse" : "гараж (с автомастерской)",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "515",
+  "motFrancais" : "jardin",
+  "traductionRusse" : "сад",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "516",
+  "motFrancais" : "jardinet",
+  "traductionRusse" : "палисадник",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "517",
+  "motFrancais" : "lit",
+  "traductionRusse" : "кровать",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "518",
+  "motFrancais" : "laver",
+  "traductionRusse" : "стирать, мыть",
   "type" : "",
   "gender" : ""
 }, {
-  "id" : "455",
-  "motFrancais" : "cuisine",
-  "traductionRusse" : "кухня(поваренное-искусство)",
+  "id" : "519",
+  "motFrancais" : "lave-vaisselle",
+  "traductionRusse" : "посудомоечная машина",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "520",
+  "motFrancais" : "lampadaire",
+  "traductionRusse" : "торшер",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "521",
+  "motFrancais" : "oreillet",
+  "traductionRusse" : "подушка",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "522",
+  "motFrancais" : "pelle",
+  "traductionRusse" : "совок",
   "type" : "noun",
   "gender" : "f"
 }, {
-  "id" : "456",
-  "motFrancais" : "cuisinière",
-  "traductionRusse" : "повариха",
+  "id" : "523",
+  "motFrancais" : "placard",
+  "traductionRusse" : "шкаф-купе, встроенный шкаф",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "524",
+  "motFrancais" : "poubelle",
+  "traductionRusse" : "мусорное ведро, контейнер для мусора",
   "type" : "noun",
   "gender" : "f"
 }, {
-  "id" : "457",
-  "motFrancais" : "déjeuner",
-  "traductionRusse" : "обед",
+  "id" : "525",
+  "motFrancais" : "rideau",
+  "traductionRusse" : "занавеска",
   "type" : "noun",
   "gender" : "m"
 }, {
-  "id" : "458",
-  "motFrancais" : "dessert",
-  "traductionRusse" : "десерт",
+  "id" : "526",
+  "motFrancais" : "sanitaires",
+  "traductionRusse" : "сантехника, санитарное оборудование",
   "type" : "noun",
   "gender" : "m"
 }, {
-  "id" : "459",
-  "motFrancais" : "dîner",
-  "traductionRusse" : "ужин",
+  "id" : "527",
+  "motFrancais" : "sauna",
+  "traductionRusse" : "сауна",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "528",
+  "motFrancais" : "torchon",
+  "traductionRusse" : "тряпка",
   "type" : "noun",
   "gender" : "m"
 }, {
-  "id" : "460",
-  "motFrancais" : "farcir",
-  "traductionRusse" : "фаршировать",
+  "id" : "529",
+  "motFrancais" : "vide-ordures",
+  "traductionRusse" : "мусоропровод",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "530",
+  "motFrancais" : "brouillon",
+  "traductionRusse" : "черновик",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "531",
+  "motFrancais" : "cahier",
+  "traductionRusse" : "тетрадь",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "532",
+  "motFrancais" : "carnet",
+  "traductionRusse" : "de notes m дневник",
   "type" : "",
   "gender" : ""
 }, {
-  "id" : "461",
-  "motFrancais" : "four",
-  "traductionRusse" : "духовка",
+  "id" : "533",
+  "motFrancais" : "сours",
+  "traductionRusse" : "урок, занятие, лекция",
   "type" : "noun",
   "gender" : "m"
 }, {
-  "id" : "462",
-  "motFrancais" : "fourchette",
-  "traductionRusse" : "вилка",
+  "id" : "534",
+  "motFrancais" : "crayon",
+  "traductionRusse" : "карандаш",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "535",
+  "motFrancais" : "crèche",
+  "traductionRusse" : "ясли",
   "type" : "noun",
   "gender" : "f"
 }, {
-  "id" : "463",
-  "motFrancais" : "frigidaire",
-  "traductionRusse" : "холодильник",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "464",
-  "motFrancais" : "frigo",
-  "traductionRusse" : "холодильник",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "465",
-  "motFrancais" : "fruits",
-  "traductionRusse" : "фрукты",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "466",
-  "motFrancais" : "garniture",
-  "traductionRusse" : "гарнир",
-  "type" : "noun",
-  "gender" : "f"
-}, {
-  "id" : "467",
-  "motFrancais" : "gâteau",
-  "traductionRusse" : "торт",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "468",
-  "motFrancais" : "goûter",
-  "traductionRusse" : "полдник",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "469",
-  "motFrancais" : "glace",
-  "traductionRusse" : "мороженое",
-  "type" : "noun",
-  "gender" : "f"
-}, {
-  "id" : "470",
-  "motFrancais" : "gruau",
-  "traductionRusse" : "крупа",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "471",
-  "motFrancais" : "jus",
-  "traductionRusse" : "сок",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "472",
-  "motFrancais" : "lait",
-  "traductionRusse" : "молоко",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "473",
-  "motFrancais" : "légumes",
-  "traductionRusse" : "овощи",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "474",
-  "motFrancais" : "louche",
-  "traductionRusse" : "половник",
-  "type" : "noun",
-  "gender" : "f"
-}, {
-  "id" : "475",
-  "motFrancais" : "ménagère",
-  "traductionRusse" : "домохозяйка",
-  "type" : "noun",
-  "gender" : "f"
-}, {
-  "id" : "476",
-  "motFrancais" : "nappe",
-  "traductionRusse" : "скатерть",
-  "type" : "noun",
-  "gender" : "f"
-}, {
-  "id" : "477",
-  "motFrancais" : "oeufs",
-  "traductionRusse" : "яичница(болтунья)",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "478",
-  "motFrancais" : "brouillés",
-  "traductionRusse" : "яичница(болтунья)",
+  "id" : "536",
+  "motFrancais" : "défaillant",
+  "traductionRusse" : "не зачтенный (о предмете)",
   "type" : "",
   "gender" : ""
 }, {
-  "id" : "479",
-  "motFrancais" : "omlette",
-  "traductionRusse" : "омлет",
+  "id" : "537",
+  "motFrancais" : "devoir",
+  "traductionRusse" : "домашнее задание",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "538",
+  "motFrancais" : "élève",
+  "traductionRusse" : "ученик",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "539",
+  "motFrancais" : "épreuve",
+  "traductionRusse" : "испытание, зачет",
   "type" : "noun",
   "gender" : "f"
 }, {
-  "id" : "480",
-  "motFrancais" : "pâté",
-  "traductionRusse" : "паштет",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "481",
-  "motFrancais" : "petit-déjeuner",
-  "traductionRusse" : "завтрак",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "482",
-  "motFrancais" : "poêle",
-  "traductionRusse" : "сковорода",
+  "id" : "540",
+  "motFrancais" : "étude",
+  "traductionRusse" : "учебные занятия",
   "type" : "noun",
   "gender" : "f"
 }, {
-  "id" : "483",
-  "motFrancais" : "poisson",
-  "traductionRusse" : "рыба",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "484",
-  "motFrancais" : "préparer",
-  "traductionRusse" : "готовить",
-  "type" : "",
-  "gender" : ""
-}, {
-  "id" : "485",
-  "motFrancais" : "presse-fruits",
-  "traductionRusse" : "соковыжималка",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "486",
-  "motFrancais" : "râper",
-  "traductionRusse" : "тереть-на-терке",
-  "type" : "",
-  "gender" : ""
-}, {
-  "id" : "487",
-  "motFrancais" : "réception",
-  "traductionRusse" : "прием-гостей",
+  "id" : "541",
+  "motFrancais" : "gomme",
+  "traductionRusse" : "ластик",
   "type" : "noun",
   "gender" : "f"
 }, {
-  "id" : "488",
-  "motFrancais" : "réfrigérateur",
-  "traductionRusse" : "холодильник",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "489",
-  "motFrancais" : "robot-culinaire",
-  "traductionRusse" : "кухонный-комбайн",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "490",
-  "motFrancais" : "rôti",
-  "traductionRusse" : "жареное-мясо",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "491",
-  "motFrancais" : "rôtir",
-  "traductionRusse" : "жарить",
-  "type" : "",
-  "gender" : ""
-}, {
-  "id" : "492",
-  "motFrancais" : "salon",
-  "traductionRusse" : "гостиная",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "493",
-  "motFrancais" : "sablé",
-  "traductionRusse" : "пирожное(песочное)",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "494",
-  "motFrancais" : "sandwich",
-  "traductionRusse" : "бутерброд",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "495",
-  "motFrancais" : "séjour",
-  "traductionRusse" : "гостиная",
-  "type" : "noun",
-  "gender" : "m"
-}, {
-  "id" : "496",
-  "motFrancais" : "serviette",
-  "traductionRusse" : "салфетка(полотенце)",
+  "id" : "542",
+  "motFrancais" : "interrogation",
+  "traductionRusse" : "опрос",
   "type" : "noun",
   "gender" : "f"
 }, {
-  "id" : "497",
-  "motFrancais" : "soirée",
-  "traductionRusse" : "вечеринка",
+  "id" : "543",
+  "motFrancais" : "leçon",
+  "traductionRusse" : "урок",
   "type" : "noun",
   "gender" : "f"
 }, {
-  "id" : "498",
-  "motFrancais" : "soupe",
-  "traductionRusse" : "суп",
+  "id" : "544",
+  "motFrancais" : "maître",
+  "traductionRusse" : "учитель, мастер",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "545",
+  "motFrancais" : "maîtresse",
+  "traductionRusse" : "воспитательница детского сада",
   "type" : "noun",
   "gender" : "f"
 }, {
-  "id" : "499",
-  "motFrancais" : "table",
-  "traductionRusse" : "стол",
+  "id" : "546",
+  "motFrancais" : "manuel",
+  "traductionRusse" : "учебник, руководство",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "547",
+  "motFrancais" : "pupitre",
+  "traductionRusse" : "парта",
+  "type" : "noun",
+  "gender" : "m"
+}, {
+  "id" : "548",
+  "motFrancais" : "récréation",
+  "traductionRusse" : "перемена",
   "type" : "noun",
   "gender" : "f"
 }, {
-  "id" : "500",
-  "motFrancais" : "théière",
-  "traductionRusse" : "чайник(для-заварки)",
+  "id" : "549",
+  "motFrancais" : "sonnerie",
+  "traductionRusse" : "звонок",
   "type" : "noun",
   "gender" : "f"
 }, {
-  "id" : "501",
-  "motFrancais" : "vider",
-  "traductionRusse" : "потрошить",
-  "type" : "",
-  "gender" : ""
+  "id" : "550",
+  "motFrancais" : "tableau",
+  "traductionRusse" : "доска",
+  "type" : "noun",
+  "gender" : "m"
 }, {
-  "id" : "502",
-  "motFrancais" : "vin",
-  "traductionRusse" : "вино",
+  "id" : "551",
+  "motFrancais" : "bourse",
+  "traductionRusse" : "стипендия",
+  "type" : "noun",
+  "gender" : "f"
+}, {
+  "id" : "552",
+  "motFrancais" : "ratrappage",
+  "traductionRusse" : "наверстывание, восполнение пробелов",
   "type" : "noun",
   "gender" : "m"
 }

@@ -25,11 +25,14 @@ public class FrenchDictionaryParser {
             while ((line = reader.readLine()) != null) {
                 // Убираем лишние пробелы
                 line = line.trim();
-                String[] parts = line.split("\\s*,\\s*"); // Разделяем по запятой для разных форм
+                //String[] parts = line.split("\\s*,\\s*"); // Разделяем по запятой для разных форм
+                String[] parts = new String[1]; // Массив из одного элемента
+                parts[0] = line;
 
                 // Обрабатываем каждую часть
                 for (String part : parts) {
-                    String[] words = part.trim().split("\\s+"); // Разделяем по пробелам
+                    //String[] words = part.trim().split("\\s+"); // Разделяем по пробелам
+                    String[] words = part.trim().split("[\\s]+");
 
                     if (words.length >= 2) {
                         String motFrancais = words[0]; // Первое слово - французское
@@ -43,11 +46,11 @@ public class FrenchDictionaryParser {
                         String type = ""; // Тип по умолчанию
                         if (isSex) {
                             gender = words[1]; // Второе слово - род
-                            traductionRusse = words[2];
+                            traductionRusse =  String.join(" ", Arrays.copyOfRange(words, 2, words.length));
                             type = "noun";
                         }
                         else {
-                            traductionRusse = words[1];
+                            traductionRusse =  String.join(" ", Arrays.copyOfRange(words, 1, words.length));
                         }
                         Mot entry = new Mot();
                         entry.setId(String.valueOf(currentId++)); // Устанавливаем ID, начиная с текущего значения и увеличиваем его

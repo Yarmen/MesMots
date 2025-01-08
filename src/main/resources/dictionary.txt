@@ -1,65 +1,53 @@
-bière f пиво
-bisquit m печенье-бисквит
-bouilloire f чайник(для-кипячения)
-bonbons m конфеты(не-шоколадные)
-café m кофе
-cafetière f кофейник
-casserole f кастрюля
-chaise f стул
-chocolat m шоколад
-couteau m нож
-crêpes f блины
-croissant m круассан
-cuillère f ложка
-cuire варить-печь
-cuisine f кухня(поваренное-искусство)
-cuisinière f повариха
-déjeuner m обед
-dessert m десерт
-dîner m ужин
-farcir фаршировать
-four m духовка
-fourchette f вилка
-frigidaire m холодильник
-frigo m холодильник
-fromage m сыр
-fruits m фрукты
-garniture f гарнир
-gâteau m торт
-goûter m полдник
-glace f мороженое
-gruau m крупа
-jus m сок
-lait m молоко
-légumes m овощи
-louche f половник
-maison f дом
-ménagère f домохозяйка
-nappe f скатерть
-oeufs m яичница(болтунья)
-brouillés яичница(болтунья)
-omlette f омлет
-pain m хлеб
-pâté m паштет
-petit-déjeuner m завтрак
-poêle f сковорода
-poisson m рыба
-préparer готовить еду
-presse-fruits m соковыжималка
-râper тереть-на-терке
-réception f прием-гостей
-réfrigérateur m холодильник
-robot-culinaire m  кухонный-комбайн
-rôti m жареное-мясо
-rôtir жарить
-salon m гостиная
-sablé m пирожное(песочное)
-sandwich m бутерброд
-séjour m гостиная
-serviette f салфетка(полотенце)
-soirée f вечеринка
-soupe f суп
-table f стол
-théière f чайник(для-заварки)
-vider потрошить
-vin m вино
+appartement m квартира
+aspirateur m пылесос
+baignoire f ванна
+balais m щетка (половая)
+bibliothèque f книжный шкаф
+bras m бра
+brosse f щетка (одежная, обувная)
+carrelage m кафельная плитка
+couette f одеяло
+coussin m диванная подушка
+couverture f покрывало, одеяло
+douche f душ
+entrée f прихожая
+garage m гараж (с автомастерской)
+jardin m сад
+jardinet m палисадник
+lit m кровать
+laver стирать, мыть
+lave-vaisselle m посудомоечная машина
+lampadaire m торшер
+oreillet m подушка
+pelle f совок
+placard m шкаф-купе, встроенный шкаф
+poubelle f мусорное ведро, контейнер для мусора
+rideau m занавеска
+sanitaires m сантехника, санитарное оборудование
+sauna f сауна
+torchon m тряпка
+vide-ordures m мусоропровод
+brouillon m черновик
+cahier m тетрадь
+carnet de notes m  дневник
+сours m урок, занятие, лекция
+crayon m карандаш
+crèche f ясли
+défaillant не зачтенный (о предмете)
+devoir m домашнее задание
+élève m f ученик
+épreuve f испытание, зачет
+étude f учебные занятия
+gomme f ластик
+interrogation f опрос
+leçon f урок
+livre m учебник
+maître m учитель, мастер
+maîtresse f воспитательница детского сада
+manuel m учебник, руководство
+pupitre m парта
+récréation f перемена
+sonnerie f звонок
+tableau m доска
+bourse f стипендия
+ratrappage m наверстывание, восполнение пробелов

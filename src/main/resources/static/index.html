@@ -7,38 +7,42 @@
     <link rel="stylesheet" href="css/style.css"> <!-- Подключение CSS -->
 </head>
 <body>
-<div id="statistics" style="position: absolute; top: 10px; right: 10px; background-color: rgba(255, 255, 255, 0.8); padding: 10px; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+
+<div id="statistics">
     Количество угаданных слов: <span id="correctCount">0</span>
 </div>
 
 <div id="question">Bonjour</div>
+
 <div id="options">
     <!-- Кнопки будут динамически добавляться через JavaScript -->
 </div>
-<button onclick="getQuestion()">Получить случайное слово</button>
+
+<button id="getQuestionButton" onclick="getQuestion()">Получить случайное слово</button>
 
 <!-- Форма для добавления нового слова -->
-<div id="addWordForm" style="margin-top: 20px;">
+<div id="addWordForm">
     <input type="text" id="newWord" placeholder="Новое слово" required>
     <input type="text" id="newTranslation" placeholder="Перевод" required>
     <button onclick="addWord()">Добавить</button>
 </div>
+
 <div id="hideWord">
-  <button id="hideButton" >Скрыть слово</button> <!-- Кнопка скрытия слова -->
+    <button id="hideButton">Скрыть слово</button> <!-- Кнопка скрытия слова -->
 </div>
 
-<div>
-<button id="populateButton">Пополнить словарь</button>
-<div id="dictionaryDisplay"></div>
+<div id="populateContainer">
+    <button id="populateButton">Пополнить словарь</button>
+    <div id="dictionaryDisplay"></div>
 </div>
 
-<div id="guessedWord" style="position: fixed; bottom: 20px; right: 20px; background: rgba(255, 255, 255, 0.8); padding: 10px; border: 1px solid #ccc; border-radius: 5px; display: none;">
+<div id="guessedWord">
     <p id="word"></p>
     <p id="translation"></p>
 </div>
 
-<script src="js/answer.js"></script> <!-- Подключаем внешний файл JavaScript -->
-<script src="js/newMots.js"></script> <!-- Подключаем новый файл для добавления слов -->
-<script src="js/apiWords.js"></script> <!-- Подключаем новый файл для добавления слов -->
+<script src="js/answer.js"></script>
+<script src="js/newMots.js"></script>
+<script src="js/apiWords.js"></script>
 </body>
 </html>
